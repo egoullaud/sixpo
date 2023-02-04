@@ -6,11 +6,11 @@ function NavBar() {
 // !add drawer function
   return (
     <div>
-        <div className='flex h-[13vh] px-4 bg-black text-white'>
-            <ul className='flex justify-around items-center uppercase'>
+        <div className='flex h-[13vh] px-4 bg-black text-white '>
+            <ul className='flex justify-evenly items-center uppercase w-[100%]'>
                 <li><Link to='/about'>About Us</Link></li> 
                 <li><Link to='/events'>Events</Link></li>
-                <li className='w-[15%]'>
+                <li className='lg:w-[9%] md:w-[15%]'>
                     <Link to='/'> 
                         <img className='w-[100%] justify-center items-center' src={logo} alt="/" />
                     </Link>

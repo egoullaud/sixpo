@@ -6,7 +6,7 @@ function Footer() {
     // !add responsive functionality
   return (
     <div className='flex justify-between items-center bg-black text-white h-[13vh] px-2'>
-      <div className='w-[15%] items-center'>
+      <div className='lg:w-[9%] md:w-[15%] items-center'>
            <Link to='/'><img src={logo} alt="/" /> </Link> 
       </div>
         <div className='w-[85%]'>
