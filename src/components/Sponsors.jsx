@@ -9,7 +9,7 @@ import realTalk from '../assets/real-talk.png'
 function Sponsors() {
   return (
     <div>
-      <ul className='flex justify-evenly items-center lg:h-[12vh]'>
+      <ul className='flex justify-evenly items-center lg:h-[12vh] my-2'>
         <li className='flex lg:w-[10%] lg:h-[5vh] md:w-1/6 mx-1 justify-center'><img src={baci} alt="" /></li>
         <li className='lg:w-[12%] md:w-1/6 mx-1'><img src={canLogo} alt="" /></li>
         <li className='lg:w-[10%] md:w-1/6 mx-1'><img src={creativeBC} alt="" /></li>
