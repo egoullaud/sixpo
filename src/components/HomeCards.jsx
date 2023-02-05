@@ -6,12 +6,12 @@ import { Link } from 'react-router-dom'
 
 function HomeCards() {
   return (
-    <div className=''>
-        <div className='flex'>
+    <div >
+        <div className='flex justify-evenly lg:mx-[5rem]'>
             <div className='bg-white shadow-lg w-[30%] flex flex-col justify-center items-center m-4 rounded-md' id='EventCard'>
-                 <img className='w-[90%] m-4 rounded-md' src={eventImg} alt="" />
+                 <img className='w-[90%] m-4 md:h-[13vh] lg:h-[28vh] rounded-md object-cover' src={eventImg} alt="" />
                     <h3 className='font-bold text-xl'>Sixpo Festival 2023</h3>
-                     <p className='m-4'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                     <p className='m-4 lg:mx-[5vh]'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
                         Recusandae dicta, officia aperiam corporis qui, repellendus 
                         beatae aliquam aut laudantium quidem id, dolore quod. Esse, 
                         culpa?
@@ -20,9 +20,9 @@ function HomeCards() {
                         Join us</button></Link>
             </div>
             <div className='bg-white shadow-lg w-[30%] flex flex-col justify-center items-center m-4 rounded-md' id='EventCard'>
-                 <img className='w-[90%] h-[13vh] m-4 rounded-md object-cover' src={blogImg} alt="" />
+                 <img className='w-[90%] md:h-[13vh] lg:h-[28vh] m-4 rounded-md object-cover' src={blogImg} alt="" />
                     <h3 className='font-bold text-xl'>Our Blog</h3>
-                     <p className='m-4'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                     <p className='m-4 lg:mx-[5vh]'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
                         Recusandae dicta, officia aperiam corporis qui, repellendus 
                         beatae aliquam aut laudantium quidem id, dolore quod. Esse, 
                         culpa?
@@ -31,9 +31,9 @@ function HomeCards() {
                         Visit Blog</button></Link>
             </div>
             <div className='bg-white shadow-lg w-[30%] flex flex-col justify-center items-center m-4 rounded-md' id='EventCard'>
-                 <img className='w-[90%] h-[13vh] m-4 rounded-md' src={optionsImg} alt="" />
+                 <img className='w-[90%] md:h-[13vh] lg:h-[28vh] m-4 rounded-md object-cover' src={optionsImg} alt="" />
                     <h3 className='font-bold text-xl'>Resources</h3>
-                     <p className='m-4'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                     <p className='m-4 lg:mx-[5vh]'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
                         Recusandae dicta, officia aperiam corporis qui, repellendus 
                         beatae aliquam aut laudantium quidem id, dolore quod. Esse, 
                         culpa?

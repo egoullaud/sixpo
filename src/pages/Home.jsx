@@ -10,7 +10,7 @@ import HomeCards from '../components/HomeCards'
 
 function Home() {
   return (
-    <div>
+    <div >
       <NavBar/>
       <section id='hero'>
         <div className='relative z-0'>
@@ -27,22 +27,23 @@ function Home() {
         </div>
       </section>
       <Sponsors/>
-      <section id='sixpo-intro'>
-      <div className=' border-y-gray border-y-2 '>
+      <section className='md:mx-[2rem] lg:mx-[5rem]' id='sixpo-intro'>
+      <div>
         {/* //section title */}
        
-        <div className='flex items-center'>
+        <div className='flex justify-evenly items-center'>
           {/* //container  */}
-          <div className='w-[50%] flex flex-col items-center p-4'>
+          <div className='w-[40%] flex flex-col items-center p-4'>
             {/* about  */}
-            <h1 className='mb-4'>What is Sixpo?</h1>
+            <h1 className='mb-4 lg:text-3xl font-bold'>What is Sixpo?</h1>
             <p className='text-center'>information about sixpo Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, voluptatibus <br/> <br/>
             SIXPO (Sexuality, Inclusion and Exploration) is a festival organized by and for folks with disabilities to discuss, reflect and learn about sexual wellness!
             </p>
-            <button className='mt-4'>Learn More</button>
+            <Link className='w-[45%] flex justify-center' to='/about'><button className='m-4 py-2 px-4 hover:bg-[#ff7070] text-white bg-[#ff5b5b] rounded-lg font-bold shadow-lg'>
+                        Learn More</button></Link>
           </div>
-          <div className='w-[50%]'>
-            <img src={community} alt="" />
+          <div className='w-[30%]'>
+            <img className='rounded-md m-5' src={community} alt="" />
             {/* image */}
           </div>
           
@@ -53,7 +54,7 @@ function Home() {
           </div>
       </div>
       </section>  
-      <section className='bg-gradient-to-b from-[#ff7070] to-[#bcf0ff] py-[10vh]'>
+      <section className=' bg-gradient-to-t from-[#bcf0ff] py-[10vh]'>
         
       <HomeCards/>
       </section> 
