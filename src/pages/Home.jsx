@@ -4,6 +4,9 @@ import NavBar from '../components/NavBar'
 import heroImg from '../assets/disabled-line.jpg'
 import { Link } from 'react-router-dom'
 import Sponsors from '../components/Sponsors'
+import community from '../assets/community.jpg'
+import splitScreen from '../assets/splitscreen.png'
+import HomeCards from '../components/HomeCards'
 
 function Home() {
   return (
@@ -24,6 +27,37 @@ function Home() {
         </div>
       </section>
       <Sponsors/>
+      <section id='sixpo-intro'>
+      <div className=' border-y-gray border-y-2 '>
+        {/* //section title */}
+       
+        <div className='flex items-center'>
+          {/* //container  */}
+          <div className='w-[50%] flex flex-col items-center p-4'>
+            {/* about  */}
+            <h1 className='mb-4'>What is Sixpo?</h1>
+            <p className='text-center'>information about sixpo Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, voluptatibus <br/> <br/>
+            SIXPO (Sexuality, Inclusion and Exploration) is a festival organized by and for folks with disabilities to discuss, reflect and learn about sexual wellness!
+            </p>
+            <button className='mt-4'>Learn More</button>
+          </div>
+          <div className='w-[50%]'>
+            <img src={community} alt="" />
+            {/* image */}
+          </div>
+          
+        </div>
+        <div>
+            {/* call to action area */}
+            
+          </div>
+      </div>
+      </section>  
+      <section className='bg-gradient-to-b from-[#ff7070] to-[#bcf0ff] py-[10vh]'>
+        
+      <HomeCards/>
+      </section> 
+   
       <Footer/>
     </div>
   )
