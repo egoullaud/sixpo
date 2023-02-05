@@ -2,6 +2,7 @@ import React from 'react'
 import eventImg from '../assets/SIXPO-Landing-Page-Banner-scaled.webp'
 import optionsImg from '../assets/resourcesImg.jpg'
 import blogImg from '../assets/blogImg.jpg'
+import { Link } from 'react-router-dom'
 
 function HomeCards() {
   return (
@@ -15,7 +16,8 @@ function HomeCards() {
                         beatae aliquam aut laudantium quidem id, dolore quod. Esse, 
                         culpa?
                     </p>
-                    <button className='mb-4 p-2 w-[45%] hover:bg-[#ff7070] text-white bg-[#ff5b5b] rounded-lg font-bold shadow-lg'>Join us</button>
+                    <Link className='w-[45%] flex justify-center' to='/events'><button className='mb-4 py-2 px-4 hover:bg-[#ff7070] text-white bg-[#ff5b5b] rounded-lg font-bold shadow-lg'>
+                        Join us</button></Link>
             </div>
             <div className='bg-white shadow-lg w-[30%] flex flex-col justify-center items-center m-4 rounded-md' id='EventCard'>
                  <img className='w-[90%] h-[13vh] m-4 rounded-md object-cover' src={blogImg} alt="" />
@@ -25,7 +27,8 @@ function HomeCards() {
                         beatae aliquam aut laudantium quidem id, dolore quod. Esse, 
                         culpa?
                     </p>
-                    <button className='mb-4 p-2 w-[45%] hover:bg-[#ff7070] text-white bg-[#ff5b5b] rounded-lg font-bold shadow-lg'>Visit Blog</button>
+                    <Link className='w-[45%] flex justify-center' to='/blog'><button className='mb-4 py-2 px-4 hover:bg-[#ff7070] text-white bg-[#ff5b5b] rounded-lg font-bold shadow-lg'>
+                        Visit Blog</button></Link>
             </div>
             <div className='bg-white shadow-lg w-[30%] flex flex-col justify-center items-center m-4 rounded-md' id='EventCard'>
                  <img className='w-[90%] h-[13vh] m-4 rounded-md' src={optionsImg} alt="" />
@@ -35,8 +38,8 @@ function HomeCards() {
                         beatae aliquam aut laudantium quidem id, dolore quod. Esse, 
                         culpa?
                     </p>
-                    <button className='mb-4 p-2 w-[45%] hover:bg-[#ff7070] text-white bg-[#ff5b5b] rounded-lg font-bold shadow-lg'>
-                        Learn More</button>
+                    <Link className='w-[45%] flex justify-center' to='/resources'><button className='mb-4 py-2 px-4 hover:bg-[#ff7070] text-white bg-[#ff5b5b] rounded-lg font-bold shadow-lg'>
+                        Learn More</button></Link>
             </div>
 
         </div>
