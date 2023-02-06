@@ -9,7 +9,7 @@ function HomeCards() {
     <div >
         <div className='flex justify-evenly lg:mx-[5rem]'>
             <div className='bg-white shadow-lg w-[30%] flex flex-col justify-center items-center m-4 rounded-md lg:pb-[3rem] ' id='EventCard'>
-                 <img className='w-[90%] m-4 md:h-[13vh] lg:h-[28vh] rounded-md object-cover' src={eventImg} alt="" />
+                <Link to='/events'><img className='w-[90%] m-4 md:h-[13vh] lg:h-[28vh] rounded-md object-cover' src={eventImg} alt="" /></Link> 
                     <h3 className='font-bold md:text-xl lg:text-2xl lg:mt-[2rem]'>Sixpo Festival 2023</h3>
                      <p className='m-4 lg:mx-[5rem] text-center'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
                         Recusandae dicta, officia aperiam corporis qui, repellendus 
@@ -20,7 +20,7 @@ function HomeCards() {
                         Join us</button></Link>
             </div>
             <div className='bg-white shadow-lg w-[30%] flex flex-col justify-center items-center m-4 rounded-md lg:pb-[3rem] ' id='EventCard'>
-                 <img className='w-[90%] md:h-[13vh] lg:h-[28vh] m-4 rounded-md object-cover' src={blogImg} alt="" />
+                <Link className='w-[100%]' to='/blog'><img className='w-[90%] m-4 md:h-[13vh] lg:h-[28vh] rounded-md object-cover' src={blogImg} alt="" /></Link> 
                     <h3 className='font-bold md:text-xl lg:text-2xl lg:mt-[2rem]'>Our Blog</h3>
                      <p className='m-4 lg:mx-[5rem] text-center'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
                         Recusandae dicta, officia aperiam corporis qui, repellendus 
@@ -31,7 +31,7 @@ function HomeCards() {
                         Visit Blog</button></Link>
             </div>
             <div className='bg-white shadow-lg w-[30%] flex flex-col justify-center items-center m-4 rounded-md lg:pb-[3rem] ' id='EventCard'>
-                 <img className='w-[90%] md:h-[13vh] lg:h-[28vh] m-4 rounded-md object-cover' src={optionsImg} alt="" />
+                <Link className='w-[100%]' to='/resources'><img className='w-[90%] m-4 md:h-[13vh] lg:h-[28vh] rounded-md object-cover' src={optionsImg} alt="" /></Link> 
                     <h3 className='font-bold md:text-xl lg:text-2xl lg:mt-[2rem]'>Resources</h3>
                      <p className='m-4 lg:mx-[5rem] text-center'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
                         Recusandae dicta, officia aperiam corporis qui, repellendus 
