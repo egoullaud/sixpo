@@ -21,7 +21,7 @@ function Home() {
         </div>
         <div className='absolute bottom-0 bg-[#404344] bg-opacity-80 z-10 h-[4vh] w-[100%]'>
           <div className='flex justify-center text-white bold text-2xl'>
-            <h2> Join us at Sixpo Festival 2023 <Link to='/events' className='underline text-xl'>Learn More</Link></h2>
+            <h2 className='uppercase font-semibold text-xl'> Join us at Sixpo Festival 2023 | <Link to='/events' className=' text-xl uppercase font-semibold hover:underline hover:text-[#ffef91] hover:font-bold'>Learn More</Link></h2>
           </div>
         </div>
         </div>
@@ -35,14 +35,17 @@ function Home() {
           {/* //container  */}
           <div className='w-[40%] flex flex-col items-center p-4'>
             {/* about  */}
-            <h1 className='mb-4 lg:text-3xl font-bold'>What is Sixpo?</h1>
-            <p className='text-center'>information about sixpo Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, voluptatibus <br/> <br/>
+            <h1 className='mb-4 lg:text-3xl md:text-2xl font-bold'>What is Sixpo?</h1>
+            <p className='text-center'>
+            We are a non-profit organization for folks who want to learn more about sexuality, and especially for folks with a lived experience of disability and those who support them. Whether you have never gone on a date, or you feel like you are a sexual expert, Sixpo is for you!
+            <br/> <br/>
+           
             SIXPO (Sexuality, Inclusion and Exploration) is a festival organized by and for folks with disabilities to discuss, reflect and learn about sexual wellness!
             </p>
-            <Link className='w-[45%] flex justify-center' to='/about'><button className='m-4 py-2 px-4 hover:bg-[#ff7070] text-white bg-[#ff5b5b] rounded-lg font-bold shadow-lg'>
+            <Link className='lg:w-[45%] flex justify-center' to='/about'><button className='m-4 md:py-2 md:px-4 lg:px-8 lg:py-3 lg:text-lg hover:bg-[#ff7070] text-white bg-[#ff5b5b] rounded-lg font-bold shadow-lg'>
                         Learn More</button></Link>
           </div>
-          <div className='w-[30%]'>
+          <div className='lg:w-[30%] md:w-[50%]'>
             <img className='rounded-md m-5' src={community} alt="" />
             {/* image */}
           </div>
