@@ -30,7 +30,7 @@ function About() {
       <section>
         <div className='flex justify-evenly items-start'>
           <div className='flex flex-col w-[50%] p-[3rem]'>
-          <img className='md:h-[50vh] lg:w-[90%] lg:h-auto rounded-md lg:m-[4rem] pb-[3rem]' src={coupleSmile} alt="" />
+          <img className='md:h-[50vh] lg:w-[90%] lg:h-auto rounded-md lg:m-[4rem] mb-[3rem]' src={coupleSmile} alt="" />
           <img className='lg:hidden md:h-[50vh] rounded-md lg:m-[4rem]' src={handHold} alt="" />
           </div>
           
