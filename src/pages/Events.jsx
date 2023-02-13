@@ -17,7 +17,7 @@ function Events() {
 
         </div>
         <div className='md:w-3/4 lg:w-[100%] lg:h-[80vh]'>
-          <img className='lg:w-full lg:h-[80vh] object-cover object-top' src={eventHero} alt="" />
+          <img className='lg:w-full lg:h-[80vh] md:h-full object-cover object-top' src={eventHero} alt="" />
         </div>
       </section>
       <section className='flex flex-col bg-white'>
@@ -48,7 +48,7 @@ function Events() {
           </div>
         </div>
       </section>
-      <section className='flex justify-evenly bg-black  text-white'>
+      <section className='flex justify-evenly bg-black  text-white  border-b-2 border-b-[#ff7070]'>
         <div className='flex justify-center md:w-[50%] my-[3rem]'>
         <iframe 
         className='rounded-md md:w-[80%]'
@@ -63,7 +63,7 @@ function Events() {
          </iframe>
         </div>
         <div className='md:w-[50%] p-[3rem]'>
-          form here
+
           <Form/>
         </div>
 
