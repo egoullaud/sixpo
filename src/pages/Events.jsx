@@ -30,7 +30,12 @@ function Events() {
               </p>
             <p className='m-[2rem] lg:text-xl'> 
               <span className='font-bold'>Description: </span> 
-              SIXPO (Sexuality, Inclusion and Exploration) is a festival organized by and for folks with disabilities, in which we will discuss, reflect and learn together about all sorts of topics related to sexual wellness! There will be panel discussions, speakers and workshops, with plenty of opportunities to engage in conversations with peers and experts about a broad range of topics. Whether these types of conversations are brand new for you, or you are really confident in discussing sexuality, we will have events that are right for you!
+              SIXPO (Sexuality, Inclusion and Exploration) is a festival organized by and for folks with disabilities, 
+              in which we will discuss, reflect and learn together about all sorts of topics related to sexual 
+              wellness! There will be panel discussions, speakers and workshops, with plenty of opportunities to 
+              engage in conversations with peers and experts about a broad range of topics. Whether these types of
+               conversations are brand new for you, or you are really confident in discussing sexuality, we will 
+               have events that are right for you!
              </p>
              
           </div>
