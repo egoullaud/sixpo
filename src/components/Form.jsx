@@ -34,7 +34,7 @@ function Form() {
               placeholder="(555) 555-5555" />
           </div>
           <label for="where" class="block mb-2 text-sm font-medium text-white">Where did you hear about us?</label>
-              <input type="text" id="where" name="where did you hear about us" 
+              <input type="text" id="where" placeholder="Tell us!" name="where did you hear about us" 
               class=" bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg 
               focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5
               " 
@@ -65,7 +65,7 @@ function Form() {
               placeholder="Write your message here..."></textarea>
           </div>
           <button type="submit" name="message"
-          class="flex items-center justify-center text-center bg-black w-[200px] border-2 border-[#F86E6E] font-medium my-6 mx-auto py-3 text-white'">
+          class="flex items-center justify-center text-center rounded-md hover:bg-[#ff7070] hover:transition-all hover:duration-500 bg-black w-[200px] border-2 border-[#F86E6E] font-medium my-6 mx-auto py-3 text-white'">
             Send message</button>
       </form>
       </div>

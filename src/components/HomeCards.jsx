@@ -16,7 +16,7 @@ function HomeCards() {
                         beatae aliquam aut laudantium quidem id, dolore quod. Esse, 
                         culpa?
                     </p>
-                    <Link className='md:w-[45%]  flex justify-center lg:mt-[1rem]' to='/events'><button className='my-4 md:py-2 md:px-4 lg:px-8 lg:py-3 lg:text-lg hover:bg-[#ff7070] text-white bg-[#ff5b5b] rounded-lg font-bold shadow-lg'>
+                    <Link className='md:w-[45%]  flex justify-center lg:mt-[1rem]' to='/events'><button className='my-4 md:py-2 md:px-4 lg:px-8 lg:py-3 lg:text-lg hover:transition-all hover:duration-500 hover:bg-[#ff7070] text-white bg-[#ff5b5b] rounded-lg font-bold shadow-lg'>
                         Join us</button></Link>
             </div>
             <div className='bg-white shadow-lg w-[30%] flex flex-col justify-center items-center m-4 rounded-md lg:pb-[3rem] ' id='EventCard'>
@@ -27,7 +27,7 @@ function HomeCards() {
                         beatae aliquam aut laudantium quidem id, dolore quod. Esse, 
                         culpa?
                     </p>
-                    <Link className='md:w-[45%] flex justify-center lg:mt-[1rem]' to='/blog'><button className='my-4 md:py-2 md:px-4 lg:px-8 lg:py-3 lg:text-lg hover:bg-[#ff7070] text-white bg-[#ff5b5b] rounded-lg font-bold shadow-lg'>
+                    <Link className='md:w-[45%] flex justify-center lg:mt-[1rem]' to='/blog'><button className='my-4 md:py-2 md:px-4 lg:px-8 lg:py-3 lg:text-lg hover:transition-all hover:duration-500 hover:bg-[#ff7070] text-white bg-[#ff5b5b] rounded-lg font-bold shadow-lg'>
                         Visit Blog</button></Link>
             </div>
             <div className='bg-white shadow-lg w-[30%] flex flex-col justify-center items-center m-4 rounded-md lg:pb-[3rem] ' id='EventCard'>
@@ -38,7 +38,7 @@ function HomeCards() {
                         beatae aliquam aut laudantium quidem id, dolore quod. Esse, 
                         culpa?
                     </p>
-                    <Link className='md:w-[45%] flex justify-center lg:mt-[1rem]' to='/resources'><button className='my-4 md:py-2 md:px-4 lg:px-8 lg:py-3 lg:text-lg hover:bg-[#ff7070] text-white bg-[#ff5b5b] rounded-lg font-bold shadow-lg'>
+                    <Link className='md:w-[45%] flex justify-center lg:mt-[1rem]' to='/resources'><button className='my-4 md:py-2 md:px-4 lg:px-8 lg:py-3 lg:text-lg hover:transition-all hover:duration-500 hover:bg-[#ff7070] text-white bg-[#ff5b5b] rounded-lg font-bold shadow-lg'>
                         Learn More</button></Link>
             </div>
 

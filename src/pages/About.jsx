@@ -19,8 +19,8 @@ function About() {
                     SIXPO (Sexuality, Inclusion and Exploration) is a festival organized by and for folks with disabilities.</h1>
                 <h2 className='lg:w-[45%] md:w-[65%] text-white text-center font-bold lg:text-xl md:text-base mt-[1rem]'>
                     Whether you have never gone on a date, or you feel like you are a sexual expert, SIXpo festival is for you!</h2>
-                <Link className='flex justify-center items-center md:w-[25%] lg:mt-[3rem]' to='/events'><button className='my-4 md:py-2 md:px-4 lg:px-8 lg:py-3 lg:text-lg hover:bg-[#ff7070] text-white bg-[#ff5b5b] rounded-lg font-bold shadow-lg'>
-                       See Event Info</button></Link>
+                <Link className='flex justify-center items-center md:w-[25%] lg:mt-[3rem]' to='/events'><button className='my-4 md:py-2 md:px-4 lg:px-8 lg:py-3 lg:text-lg hover:bg-[#ff7070] hover:transition-all hover:duration-500 text-white bg-[#ff5b5b] rounded-lg font-bold shadow-lg'>
+                       Join the Event</button></Link>
             </div>
           
           </div>
@@ -52,7 +52,7 @@ function About() {
                  veritatis temporibus deleniti! Rerum ea molestias et eum provident illo eveniet ad, nostrum eius quisquam.
               </p>
              
-             <Link className='flex justify-center items-center md:w-[35%] lg:mt-[1rem]' to='/events'><button className=' my-4 md:py-2 md:px-4 lg:px-8 lg:py-3 lg:text-lg hover:bg-[#ff7070] text-white bg-[#ff5b5b] rounded-lg font-bold shadow-lg'>
+             <Link className='flex justify-center items-center md:w-[35%] lg:mt-[1rem]' to='/events'><button className=' my-4 md:py-2 md:px-4 lg:px-8 lg:py-3 lg:text-lg hover:transition-all hover:duration-500 hover:bg-[#ff7070] text-white bg-[#ff5b5b] rounded-lg font-bold shadow-lg'>
                        Join the Event</button></Link>
                        
           </div>
