@@ -27,7 +27,7 @@ function Home() {
         </div>
       </section>
       <Sponsors/>
-      <section className='md:mx-[2rem] lg:mx-[5rem]' id='sixpo-intro'>
+      <section className='md:mx-[2rem] lg:mx-[5rem] lg:mt-[5rem] md:mt-[5rem]' id='sixpo-intro'>
       <div>
         {/* //section title */}
        

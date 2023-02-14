@@ -23,19 +23,14 @@ function Events() {
       <section className='flex flex-col bg-white'>
         <div className=' flex justify-evenly md:items-center'>
           <div className='flex flex-col lg:w-[40%] md:w-[40%]'>
-            <h2 className='font-bold text-2xl lg:text-5xl m-[2rem]'>Event Details</h2>
+            <h2 className='font-bold text-2xl lg:text-5xl m-[2rem] underline'>Event Details</h2>
             <p className=' mx-[2rem] lg:text-xl'> <span className='font-bold lg:text-2xl'>Virtual:</span> April 1 - 19, 2023 <br/>
              <span className='font-bold lg:text-2xl'>In-person:</span> April 20 - 22, 2023 <br/>
              <span className='font-bold lg:text-2xl'>Cost:</span> By Donation<br/>
               </p>
             <p className='m-[2rem] lg:text-xl'> 
               <span className='font-bold'>Description: </span> 
-                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi provident possimus sunt eaque commodi 
-                ipsum dicta quos, assumenda repudiandae mollitia maiores veritatis rem atque quo! Tempora quae beatae,
-                tenetur aspernatur officia alias cumque. Molestiae id illo tenetur quisquam rem et. Sequi possimus 
-                earum reprehenderit porro distinctio nulla alias, quae perferendis quis dolorum similique neque 
-                cupiditate dolorem omnis deleniti minus obcaecati quo! Veniam tempora, perspiciatis itaque 
-                repudiandae obcaecati quam ea ratione!
+              SIXPO (Sexuality, Inclusion and Exploration) is a festival organized by and for folks with disabilities, in which we will discuss, reflect and learn together about all sorts of topics related to sexual wellness! There will be panel discussions, speakers and workshops, with plenty of opportunities to engage in conversations with peers and experts about a broad range of topics. Whether these types of conversations are brand new for you, or you are really confident in discussing sexuality, we will have events that are right for you!
              </p>
              
           </div>
@@ -60,10 +55,11 @@ function Events() {
          </iframe>
          <div className='flex  justify-start m-5 w-[70%]'>
             <h2 className='font-bold text-2xl p-2 underline'>Location:</h2>
-             <p className='px-5'>
+           <a target="_blank" href="https://www.google.com/maps/place/Heritage+Hall/@49.2572552,-123.1030644,17z/data=!3m2!4b1!5s0x548673e3716e6ddd:0xff07acb7c8760d7d!4m6!3m5!1s0x548673e3669ce3ad:0x7c84d4bd7f6028b3!8m2!3d49.2572552!4d-123.1008704!16s%2Fm%2F0n9gps0"> 
+           <p className='px-5 hover:underline hover:transition-all hover:duration-500'>
                 Heritage Hall <br/>
                 3102 Main Street, <br/>
-                Vancouver, BC V5T 3G7</p>
+                Vancouver, BC V5T 3G7</p></a> 
             </div>
         </div>
         <div className='md:w-[50%] p-[3rem] lg:w-[30%]'>
