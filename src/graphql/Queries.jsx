@@ -132,3 +132,5 @@ query resourceCategory {
     }
   }
 `
+
+export {GET_BLOG_POSTS, GET_BLOG_CATEGORY, GET_AUTHORS, GET_RESOURCES, GET_RESOURCE_CATEGORY};
