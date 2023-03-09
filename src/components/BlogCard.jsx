@@ -66,7 +66,7 @@ function BlogCard() {
                         {post.authors?.map((author) => 
                     {return (`${author.name}`)})}  | {moment(post.datePublished).format('MMM DD, YYYY')} </h4>
                     <p className='text-base mx-4 mt-4 text-center'  >{post.preview}</p>
-                    <Link className='md:w-[45%] flex justify-center lg:mt-[1rem]' to='/blog'><button className='my-4 md:py-2 md:px-4 lg:px-8 lg:py-3 lg:text-lg hover:transition-all hover:duration-500 hover:bg-[#ff7070] text-white bg-[#ff5b5b] rounded-lg font-bold shadow-lg'>
+                    <Link className='md:w-[45%] flex justify-center lg:mt-[1rem]' to={"/blog/"+post.slug}><button className='my-4 md:py-2 md:px-4 lg:px-8 lg:py-3 lg:text-lg hover:transition-all hover:duration-500 hover:bg-[#ff7070] text-white bg-[#ff5b5b] rounded-lg font-bold shadow-lg'>
                         Continue Reading</button></Link>
 
             </div>
