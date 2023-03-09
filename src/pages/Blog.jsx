@@ -7,7 +7,7 @@ function Blog() {
   return (
     <div>
       <NavBar/>
-      <div className='flex bg-gradient-to-t from-[#bcf0ff]'>
+      <div className='flex bg-gradient-to-t from-[#bcf0ff]  '>
         <div className='w-[20%]'>
           <h1 className='font-bold text-center text-xl my-4'>Categories</h1>
           {/* add category query */}
