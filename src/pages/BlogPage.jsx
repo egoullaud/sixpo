@@ -1,8 +1,5 @@
 import React, {useState, useEffect} from 'react'
-import Footer from '../components/Footer'
-import NavBar from '../components/NavBar'
 import moment from 'moment'
-import BlogCard from '../components/BlogCard'
 import BlogCategory from '../components/BlogCategory'
 
 
@@ -58,7 +55,7 @@ function BlogPage() {
 
     return(
       <div>
-        <NavBar/>
+        
         <div className='flex bg-gradient-to-t from-[#bcf0ff]  '>
        
         
@@ -82,7 +79,7 @@ function BlogPage() {
               <div>
               {post.authors?.map((author) => 
                   (
-                   <div className=' bg-slate-100 p-5 rounded-md mx-[2rem] mb-[2rem]'>
+                   <div key={author.id} className=' bg-slate-100 p-5 rounded-md mx-[2rem] mb-[2rem]'>
                     <h1 className='font-bold text-3xl'>About the Author</h1>
                     <div className='flex flex-row  items-center justify-center '>
                       <div className='flex flex-col items-center'>
@@ -105,7 +102,7 @@ function BlogPage() {
         </div>
         </div>
       </div>
-      <Footer/>
+    
       </div>
       )
   }
