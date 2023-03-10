@@ -1,4 +1,4 @@
-import {BrowserRouter, Route, Routes} from 'react-router-dom';
+import {Route, Routes} from 'react-router-dom';
 import Footer from './components/Footer';
 import NavBar from './components/NavBar';
 import About from './pages/About';
@@ -7,6 +7,7 @@ import BlogPage from './pages/BlogPage';
 import Events from './pages/Events';
 import Home from './pages/Home';
 import Resources from './pages/Resources';
+import SelectedBlogCategory from './pages/SelectedBlogCategory';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/resources" element={<Resources/>}/>
           <Route path="/blog" element={<Blog/>}/>
           <Route path="/blog/:slug" element={<BlogPage/>}/>
+          <Route path="/posts/:slug" element={<SelectedBlogCategory/>}/> 
       </Routes>
      <Footer/>
     </div>
