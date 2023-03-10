@@ -11,7 +11,7 @@ import HomeCards from '../components/HomeCards'
 function Home() {
   return (
     <div >
-      <NavBar/>
+     
       <section id='hero'>
         <div className='relative z-0'>
           <img src={heroImg} alt="/" />
@@ -62,7 +62,7 @@ function Home() {
       <HomeCards/>
       </section> 
    
-      <Footer/>
+     
     </div>
   )
 }

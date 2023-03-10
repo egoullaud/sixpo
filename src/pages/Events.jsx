@@ -1,6 +1,4 @@
 import React from 'react'
-import Footer from '../components/Footer'
-import NavBar from '../components/NavBar'
 import eventHero from '../assets/disabled-rep-flag.jpg'
 import festivalPhoto from '../assets/Delone-Kelsey.jpg'
 import Form from '../components/Form.jsx'
@@ -8,7 +6,7 @@ import Form from '../components/Form.jsx'
 function Events() {
   return (
     <div>
-      <NavBar/>
+   
       <section className='flex'>
         <div className='lg:w-[35%] lg:h-[80vh] md:w-1/4 z-0 bg-black bg-opacity-50'>
 
@@ -76,7 +74,7 @@ function Events() {
 
 
 
-      <Footer/>
+    
     </div>
   )
 }

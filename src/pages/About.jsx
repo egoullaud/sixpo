@@ -1,6 +1,4 @@
 import React from 'react'
-import Footer from '../components/Footer'
-import NavBar from '../components/NavBar'
 import coupleBW from '../assets/sixpo-couple-backs.jpg'
 import coupleSmile from '../assets/couple-smile.jpg'
 import handHold from '../assets/hand-hold.jpg'
@@ -9,7 +7,7 @@ import { Link } from 'react-router-dom'
 function About() {
   return (
     <div>
-      <NavBar/>
+     
       <section>
         <div className='relative z-0'>
           <img className='' src={coupleBW} alt="" />
@@ -61,7 +59,7 @@ function About() {
      
 
   
-      <Footer/>
+    
     </div>
   )
 }
