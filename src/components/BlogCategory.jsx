@@ -26,7 +26,7 @@ useEffect(() => {
 }, []);
 
   return (
-    <div className='w-[20%] border-r-[1px] border-r-black'>
+    <div className='w-[20%] border-r-[1px] border-r-black bg-white pt-[4rem]'>
         
         {/* <div className='flex items-center justify-center my-[2rem]'>
             <SearchBar/>

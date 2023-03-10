@@ -56,7 +56,7 @@ function BlogPage() {
     return(
       <div>
         
-        <div className='flex bg-gradient-to-t from-[#bcf0ff]  '>
+        <div className='flex bg-[#bcf0ff]'>
        
         
           <BlogCategory/>
