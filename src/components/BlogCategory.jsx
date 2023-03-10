@@ -2,9 +2,6 @@ import React, { useEffect, useState } from 'react'
 import SearchBar from './SearchBar';
 import { Link } from 'react-router-dom'
 
-
-
-
 const BLOG_CATEGORY_QUERY = `
 
 {
@@ -29,7 +26,7 @@ useEffect(() => {
 }, []);
 
   return (
-    <div className='w-[100%] border-r-[1px] border-r-black'>
+    <div className='w-[20%] border-r-[1px] border-r-black'>
         
         {/* <div className='flex items-center justify-center my-[2rem]'>
             <SearchBar/>
@@ -37,9 +34,11 @@ useEffect(() => {
         
         {blogCategories.map((blogCategory) =>
         {return (
-            <ul>
-           <Link key={blogCategory.id} to={`/posts/${blogCategory.slug}`}>
-                <li className='font-semibold text-center text-xl py-2 border-t-[1px] border-t-black mx-1' >{blogCategory.title}</li>
+            <ul key={blogCategory.id} >
+           <Link to={"/posts/"+blogCategory.slug}>
+                <li
+                 className='font-semibold text-center text-xl py-2 border-t-[1px] border-t-black mx-1' >
+                    {blogCategory.title}</li>
 
            </Link>
            </ul>
@@ -52,3 +51,4 @@ useEffect(() => {
 }
 
 export default BlogCategory
+
