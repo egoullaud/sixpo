@@ -48,7 +48,7 @@ const resources = `
 
 export const QUERY_SLUG_BLOG_CATEGORIES = gql`
     {
-        categories(){
+        blogCategories(){
             title,
             slug
         }
