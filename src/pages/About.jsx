@@ -28,8 +28,8 @@ function About() {
       <section>
         <div className='flex justify-evenly items-start'>
           <div className='flex flex-col w-[50%] p-[3rem]'>
-          <img className='md:h-[50vh] lg:w-[90%] lg:h-auto rounded-md lg:m-[4rem] mb-[3rem]' src={coupleSmile} alt="A man and woman sitting on a blanket in the grass smiling, holding hands and leaning their heads to touch together. The Black woman wears a read patterend headband, dark green jacket and flower-printed skirt. The man wears a red shirt with the letter H printed in dark blue." />
-          <img className='xl:hidden md:h-[50vh] lg:w-[90%] lg:h-auto rounded-md lg:m-[4rem] mb-[3rem]]' src={handHold} alt="Close up of interracial couple holding hands with interlaced fingers. The woman wears a floral printed skirt, and the man wears a red shirt with the letter H printed in dark blue." />
+          <img className='md:h-[50vh] lg:w-[90%] lg:h-auto rounded-md lg:m-[4rem] mb-[3rem]' src={coupleSmile} alt="A disabled man and woman sitting on a blanket in the grass smiling, holding hands and leaning their heads to touch together. The Black woman wears a read patterend headband, dark green jacket and flower-printed skirt. The man wears a red shirt with the letter H printed in dark blue." />
+          <img className='xl:hidden md:h-[50vh] lg:w-[90%] lg:h-auto rounded-md lg:m-[4rem] mb-[3rem]]' src={handHold} alt="Close up of disabled couple holding hands with interlaced fingers. A Black disabled woman wears a floral printed skirt, and the disabled man wears a red shirt with the letter H printed in dark blue." />
           </div>
           
           <div className='flex flex-col items-center md:w-[50%] lg:m-[4rem] md:m-[1rem] lg:pt-[5rem] md:pt-[3rem]'>

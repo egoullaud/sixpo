@@ -9,8 +9,8 @@ function HomeCards() {
     <div >
         <div className='flex justify-evenly lg:mx-[5rem]'>
             <div className='bg-white shadow-lg w-[30%] flex flex-col justify-center items-center m-4 rounded-md lg:pb-[3rem] ' id='EventCard'>
-                <Link to='/events'><img className='w-[90%] m-4 md:h-[13vh] lg:h-[28vh] rounded-md object-cover' src={eventImg} alt="" /></Link> 
-                    <h3 className='font-bold md:text-xl lg:text-2xl lg:mt-[2rem]'>Sixpo Festival 2023</h3>
+                <Link to='/events'><img className='w-[90%] m-4 md:h-[13vh] lg:h-[28vh] rounded-md object-cover' src={eventImg} alt="A black and white photo of a smiling woman caressing her fiance's face. the SIXpo logo stands in vibrant colors in the center foreground with the words `Coming Spring 2023` printed underneath." /></Link> 
+                    <h5 className='font-bold md:text-xl lg:text-2xl lg:mt-[2rem]'>Sixpo Festival 2023</h5>
                      <p className='m-4 lg:mx-[5rem] text-center'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
                         Recusandae dicta, officia aperiam corporis qui, repellendus 
                         beatae aliquam aut laudantium quidem id, dolore quod. Esse, 
@@ -20,8 +20,8 @@ function HomeCards() {
                         Join us</button></Link>
             </div>
             <div className='bg-white shadow-lg w-[30%] flex flex-col justify-center items-center m-4 rounded-md lg:pb-[3rem] ' id='EventCard'>
-                <Link className='w-[100%]' to='/blog'><img className='w-[90%] m-4 md:h-[13vh] lg:h-[28vh] rounded-md object-cover' src={blogImg} alt="" /></Link> 
-                    <h3 className='font-bold md:text-xl lg:text-2xl lg:mt-[2rem]'>Our Blog</h3>
+                <Link className='w-[100%]' to='/blog'><img className='w-[90%] m-4 md:h-[13vh] lg:h-[28vh] rounded-md object-cover' src={blogImg} alt="Close-up of a couple smiling and holding hands. The Black femme in the back wears compression gloves and looks lovingly at the non-binary Black person in the front, who sits in a power wheelchair. Photo attributed to Disabled and Here project." /></Link> 
+                    <h5 className='font-bold md:text-xl lg:text-2xl lg:mt-[2rem]'>Our Blog</h5>
                      <p className='m-4 lg:mx-[5rem] text-center'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
                         Recusandae dicta, officia aperiam corporis qui, repellendus 
                         beatae aliquam aut laudantium quidem id, dolore quod. Esse, 
@@ -32,7 +32,7 @@ function HomeCards() {
             </div>
             <div className='bg-white shadow-lg w-[30%] flex flex-col justify-center items-center m-4 rounded-md lg:pb-[3rem] ' id='EventCard'>
                 <Link className='w-[100%]' to='/resources'><img className='w-[90%] m-4 md:h-[13vh] lg:h-[28vh] rounded-md object-cover' src={optionsImg} alt="" /></Link> 
-                    <h3 className='font-bold md:text-xl lg:text-2xl lg:mt-[2rem]'>Resources</h3>
+                    <h5 className='font-bold md:text-xl lg:text-2xl lg:mt-[2rem]'>Resources</h5>
                      <p className='m-4 lg:mx-[5rem] text-center'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
                         Recusandae dicta, officia aperiam corporis qui, repellendus 
                         beatae aliquam aut laudantium quidem id, dolore quod. Esse, 
