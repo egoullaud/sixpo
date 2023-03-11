@@ -15,7 +15,7 @@ function Events() {
 
         </div>
         <div className='md:w-3/4 lg:w-[100%] lg:h-[80vh]'>
-          <img className='lg:w-full lg:h-[80vh] md:h-full object-cover object-top' src={eventHero} alt="" />
+         <a href="https://affecttheverb.com/disabledandhere/" target="_blank"> <img className='lg:w-full lg:h-[80vh] md:h-full object-cover object-top' src={eventHero} alt="Three Black and disabled folx (a non-binary person holding a cane, a non-binary person sitting in a power wheelchair, and a femme sitting in a chair) look seriously at the camera while a rainbow pride flag drapes on the wall behind them." /></a>
         </div>
       </section>
       <section className='flex flex-col bg-white'>
@@ -38,7 +38,7 @@ function Events() {
              
           </div>
           <div className='flex items-center justify-evenly lg:w-[50%] md:w-[60%]'>
-            <img className='m-[3rem] lg:w-[60%] md:w-[70%] rounded-md' src={festivalPhoto} alt="" />
+            <img className='m-[3rem] lg:w-[60%] md:w-[70%] rounded-md' src={festivalPhoto} alt="A man hugs his fiance while she smiles and tugs the bill of his hat" />
           </div>
         </div>
       </section>
