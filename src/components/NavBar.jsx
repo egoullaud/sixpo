@@ -12,7 +12,7 @@ function NavBar() {
                 <li><Link className='lg:mx-[4rem md:mx-[3rem] hover:transition-all hover:duration-500 hover:underline hover:text-[#ffef91]' to='/events'>Events</Link></li>
                 <li className='lg:w-[11%] md:w-[15%]'>
                     <Link to='/'> 
-                        <img className='w-[100%] justify-center items-center' src={logo} alt="/" />
+                        <img className='w-[100%] justify-center items-center' src={logo} alt="SIXpo logo: a bright pink heart with the word SIXPO in yellow across the front and the word Festival printed in outlined letters below." />
                     </Link>
                    
                 </li>

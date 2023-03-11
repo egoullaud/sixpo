@@ -7,7 +7,7 @@ function Footer() {
   return (
     <div className='flex justify-between items-center bg-black text-white px-2'>
       <div className='flex lg:w-[15%] md:w-[15%] justify-center items-center'>
-           <Link className='lg:w-[60%]' to='/'><img src={logo} alt="/" /> </Link> 
+           <Link className='lg:w-[60%]' to='/'><img src={logo} alt="SIXpo logo: a bright pink heart with the word SIXPO in yellow across the front and the word Festival printed in outlined letters below." /> </Link> 
       </div>
         <div className='w-[85%]'>
             <p className='text-center p-4 mx-4 text-sm'> Members of SIXPO respectfully acknowledge that we live, learn and gather on the unceded, traditional and ancestral territories of the xʷməθkʷəy̓əm (Musqueam), Sḵwx̱wú7mesh Úxwumixw (Squamish), səl̓ilw̓ətaʔɬ (Tsleil-Waututh) the Katzie, Kwantlen, Kwikwetlem, Qayqayt and Tla'amin Nations.
