@@ -10,7 +10,7 @@ import HomeCards from '../components/HomeCards'
 
 function Home() {
   return (
-    <div >
+    <div>
      
       <section id='home-page-hero'>
         <div className='relative z-0'>
@@ -32,25 +32,35 @@ function Home() {
       </section>
       <Sponsors/>
       <section className='md:mx-[2rem] lg:mx-[5rem] lg:mt-[5rem] md:mt-[5rem]' id='sixpo-intro'>
-      <div>
+      <section>
         {/* //section title */}
        
-        <div className='flex justify-evenly items-center'>
+        <div className='flex flex-col md:flex-row justify-evenly items-center my-[2rem]'>
           {/* //container  */}
-          <div className='w-[40%] flex flex-col items-center p-4'>
+          <div className=' w-[100%] md:w-[40%] flex flex-col items-center p-4'>
             {/* about  */}
-            <h3 className='mb-4 lg:text-3xl md:text-2xl font-bold'>What is Sixpo?</h3>
-            <p className='text-center'>
+            <h3 className='mb-4 font-bold
+            text-xl
+             md:text-2xl
+             lg:text-3xl '>What is Sixpo?</h3>
+            <p className='text-justify md:text-center'>
             We are a non-profit organization for folks who want to learn more about sexuality, and especially for folks with a lived experience of disability and those who support them. Whether you have never gone on a date, or you feel like you are a sexual expert, Sixpo is for you!
             <br/> <br/>
            
             SIXPO (Sexuality, Inclusion and Exploration) is a festival organized by and for folks with disabilities to discuss, reflect and learn about sexual wellness!
             </p>
-            <Link className='lg:w-[45%] flex justify-center' to='/about'><button className='m-4 md:py-2 md:px-4 lg:px-8 lg:py-3 lg:text-lg hover:transition-all hover:duration-500 hover:bg-[#ff7070] text-white bg-[#ff5b5b] rounded-lg font-bold shadow-lg'>
-                        Learn More</button></Link>
+            <Link className='lg:w-[45%] flex justify-center' to='/about'>
+              <button className='m-4 text-white bg-[#ff5b5b] rounded-lg font-bold shadow-lg
+              py-2 px-4
+              md:py-2 md:px-4 
+              lg:px-8 lg:py-3 lg:text-lg 
+              hover:transition-all hover:duration-500 hover:bg-[#ff7070]'>
+                        Learn More</button>
+            </Link>
           </div>
-          <div className='lg:w-[30%] md:w-[50%]'>
-           <a href="https://affecttheverb.com/gallery/disabledandhere/proudlyqtpoc/" target="_blank"> <img className='rounded-md m-5' src={community} alt="Five disabled people of color with canes, prosthetic legs, and a wheelchair sit on a rooftop deck, laughing and sharing stories. Greenery and city high-rises are visible in the background. Photo attributed to Disabled and Here project." /></a>
+          <div className='flex items-center justify-center w-[80%] lg:w-[30%] md:w-[50%]'>
+           <a href="https://affecttheverb.com/gallery/disabledandhere/proudlyqtpoc/" target="_blank"> 
+           <img className='rounded-md m-5' src={community} alt="Five disabled people of color with canes, prosthetic legs, and a wheelchair sit on a rooftop deck, laughing and sharing stories. Greenery and city high-rises are visible in the background. Photo attributed to Disabled and Here project." /></a>
             {/* image */}
           </div>
           
@@ -59,7 +69,7 @@ function Home() {
             {/* call to action area */}
             
           </div>
-      </div>
+      </section>
       </section>  
       <section className=' bg-gradient-to-t from-[#bcf0ff] py-[10vh]'>
         
