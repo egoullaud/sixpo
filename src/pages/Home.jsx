@@ -14,15 +14,18 @@ function Home() {
      
       <section id='home-page-hero'>
         <div className='relative z-0'>
-        <a href="https://affecttheverb.com/disabledandhere/" target="_blank"> <img src={heroImg} alt="Six disabled people of color smile and pose in front of a concrete wall. 
-        Five people stand in the back, with the Black woman in the center holding up a chalkboard sign reading `disabled and here.` A South Asian person in a wheelchair sits in front. Photo attributed to Disabled and Here project." /></a> 
+        <a href="https://affecttheverb.com/disabledandhere/" target="_blank"> 
+          <img src={heroImg} alt="Six disabled people of color smile and pose in front of a concrete wall. Five people stand in the back, with the Black woman in the center holding up a chalkboard sign reading `disabled and here.` A South Asian person in a wheelchair sits in front. Photo attributed to Disabled and Here project." /></a> 
         <div className='absolute inset-0 bg-black bg-opacity-40 z-10 h-[6vh]'>
-          <h1 className='h-[6vh] flex items-center justify-center text-white text-center text-4xl'>
+          <h1 className='h-[6vh] flex items-center justify-center text-white text-center 
+          lg:text-4xl'>
            Sexuality | Inclusion | Exploration</h1>
         </div>
         <div className='absolute bottom-0 bg-[#404344] bg-opacity-80 z-10 h-[4vh] w-[100%]'>
-          <div className='flex justify-center text-white bold text-2xl'>
-            <h2 className='uppercase font-semibold text-xl'> Join us at Sixpo Festival 2023 | <Link to='/events' className=' text-xl uppercase font-semibold hover:underlin hover:transition-all hover:duration-500 hover:text-[#ffef91] hover:font-bold'>Learn More</Link></h2>
+          <div className='flex justify-center items-center '>
+            <h2 className='uppercase font-semibold text-white lg:text-2xl text-sm'> Join us at Sixpo Festival 2023 | 
+            <Link to='/events'
+             className=' lg:text-xl uppercase font-semibold hover:underline hover:transition-all hover:duration-500 hover:text-[#ffef91] hover:font-bold'>Learn More</Link></h2>
           </div>
         </div>
         </div>

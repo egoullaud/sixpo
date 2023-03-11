@@ -6,7 +6,6 @@ import Form from '../components/Form.jsx'
 function Events() {
   return (
     <div>
-   
       <section className='flex'>
         <div className='lg:w-[35%] lg:h-[80vh] md:w-1/4 z-0 bg-black bg-opacity-50'>
 
