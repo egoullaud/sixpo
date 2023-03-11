@@ -36,7 +36,7 @@ function Home() {
           {/* //container  */}
           <div className='w-[40%] flex flex-col items-center p-4'>
             {/* about  */}
-            <h1 className='mb-4 lg:text-3xl md:text-2xl font-bold'>What is Sixpo?</h1>
+            <h3 className='mb-4 lg:text-3xl md:text-2xl font-bold'>What is Sixpo?</h3>
             <p className='text-center'>
             We are a non-profit organization for folks who want to learn more about sexuality, and especially for folks with a lived experience of disability and those who support them. Whether you have never gone on a date, or you feel like you are a sexual expert, Sixpo is for you!
             <br/> <br/>
@@ -47,7 +47,7 @@ function Home() {
                         Learn More</button></Link>
           </div>
           <div className='lg:w-[30%] md:w-[50%]'>
-            <img className='rounded-md m-5' src={community} alt="" />
+            <img className='rounded-md m-5' src={community} alt="Five disabled people of color with canes, prosthetic legs, and a wheelchair sit on a rooftop deck, laughing and sharing stories. Greenery and city high-rises are visible in the background." />
             {/* image */}
           </div>
           
