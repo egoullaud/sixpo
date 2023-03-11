@@ -18,11 +18,13 @@ function Events() {
          <a href="https://affecttheverb.com/disabledandhere/" target="_blank"> <img className='lg:w-full lg:h-[80vh] md:h-full object-cover object-top' src={eventHero} alt="Three Black and disabled folx (a non-binary person holding a cane, a non-binary person sitting in a power wheelchair, and a femme sitting in a chair) look seriously at the camera while a rainbow pride flag drapes on the wall behind them. Photo attributed to Disabled and Here project." /></a>
         </div>
       </section>
-      <section className='flex flex-col bg-white'>
+      <section className='flex flex-col bg-white my-[4rem]'>
         <div className=' flex justify-evenly md:items-center'>
           <div className='flex flex-col lg:w-[40%] md:w-[40%]'>
             <h2 className='font-bold text-2xl lg:text-5xl m-[2rem] underline'>Event Details</h2>
-            <p className=' mx-[2rem] lg:text-xl'> <span className='font-bold lg:text-2xl'>Virtual:</span> April 1 - 19, 2023 <br/>
+            
+            <p className=' mx-[2rem] lg:text-xl'> 
+            <span className='font-bold lg:text-2xl'>Virtual:</span> April 1 - 19, 2023 <br/>
              <span className='font-bold lg:text-2xl'>In-person:</span> April 20 - 22, 2023 <br/>
              <span className='font-bold lg:text-2xl'>Cost:</span> By Donation<br/>
               </p>
@@ -34,7 +36,14 @@ function Events() {
               engage in conversations with peers and experts about a broad range of topics. Whether these types of
                conversations are brand new for you, or you are really confident in discussing sexuality, we will 
                have events that are right for you!
-             </p>
+            </p>
+          <h3 className='font-bold text-2xl mx-[2rem]'>What to Expect</h3>
+          <p className=' mx-[2rem] my-[1rem] text-xl'>SIXpo: Sexuality, Inclusion and eXploration is a three week virtual expo run by and for folks with disabilities. During the three weeks we will host a number of online workshops, panels, presentations and discussions over zoom. </p>
+          <ul className='mx-[4rem] list-decimal'>
+            <li className='my-2'>Week one will focus on the basics, introductory workshops, participants will have time to reflect on where they are at with their relationship to sexuality and maybe a chance to meet others who are attending SIXpo. </li>
+            <li className='my-2'>Week two will dig deeper into topics of sexual health, sexual identity, consent, and self pleasure! </li>
+            <li className='my-2'>Week three will be concluding discussions, summary workshops and celebrating what we’ve all learned! </li>
+          </ul>
              
           </div>
           <div className='flex items-center justify-evenly lg:w-[50%] md:w-[60%]'>
@@ -42,7 +51,7 @@ function Events() {
           </div>
         </div>
       </section>
-      <section className='flex justify-evenly bg-black  text-white  border-b-2 border-b-[#ff7070]'>
+      <section className='flex justify-evenly bg-black  text-white  border-b-2 border-b-[#ff7070] py-[3rem]'>
         <div className='flex flex-col justify-center items-center md:w-[50%] my-[3rem]'>
         
         <iframe 
