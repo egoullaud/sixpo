@@ -31,7 +31,7 @@ function HomeCards() {
                         Visit Blog</button></Link>
             </div>
             <div className='bg-white shadow-lg w-[30%] flex flex-col justify-center items-center m-4 rounded-md lg:pb-[3rem] ' id='EventCard'>
-                <Link className='w-[100%]' to='/resources'><img className='w-[90%] m-4 md:h-[13vh] lg:h-[28vh] rounded-md object-cover' src={optionsImg} alt="" /></Link> 
+                <Link className='w-[100%]' to='/resources'><img className='w-[90%] m-4 md:h-[13vh] lg:h-[28vh] rounded-md object-cover' src={optionsImg} alt="A young couple sit on a stone wall holding hands with interlaced fingers. A building and trees are visible in the background and the photo has a yeloow-glow gradient from left to right. The Options Sexual health logo is shown in the middle of the photo with the words All About Choices to the left side. Below reads `Find all the information you are looking for so you can make the choices you want`. " /></Link> 
                     <h5 className='font-bold md:text-xl lg:text-2xl lg:mt-[2rem]'>Resources</h5>
                      <p className='m-4 lg:mx-[5rem] text-center'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
                         Recusandae dicta, officia aperiam corporis qui, repellendus 
