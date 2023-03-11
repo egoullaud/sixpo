@@ -47,7 +47,7 @@ function Home() {
                         Learn More</button></Link>
           </div>
           <div className='lg:w-[30%] md:w-[50%]'>
-            <img className='rounded-md m-5' src={community} alt="Five disabled people of color with canes, prosthetic legs, and a wheelchair sit on a rooftop deck, laughing and sharing stories. Greenery and city high-rises are visible in the background." />
+           <a href="https://affecttheverb.com/gallery/disabledandhere/proudlyqtpoc/" target="_blank"> <img className='rounded-md m-5' src={community} alt="Five disabled people of color with canes, prosthetic legs, and a wheelchair sit on a rooftop deck, laughing and sharing stories. Greenery and city high-rises are visible in the background." /></a>
             {/* image */}
           </div>
           
