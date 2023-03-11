@@ -31,6 +31,7 @@ const POSTS_QUERY = `
         image {
           id
           url
+          altText
         }
       }
       datePublished
@@ -61,12 +62,12 @@ function BlogPage() {
         
           <BlogCategory/>
         
-        <div className='w-[80%]  flex flex-col justify-start items-center'>
+        <main className='w-[80%]  flex flex-col justify-start items-center'>
           <h1 className='font-bold text-center text-3xl my-4'>Articles</h1>
-      <div className='flex items-center justify-center mt-[5rem]'>
+      <section className='flex items-center justify-center mt-[5rem]'>
           {posts.map((post) =>(
               <div className='bg-white rounded shadow-md flex flex-col items-center justify-center w-[90%] mb-[5rem] 'key={post.id}>
-                  <img className='w-[95%]  object-cover rounded m-4'  src={post.image.url} alt="picture here" />
+                  <img className='w-[95%]  object-cover rounded m-4'  src={post.image.url} alt={post.image.altText} />
                   <h3 className=' w-[90%] text-center font-bold mx-4 md:text-xl lg:text-2xl mt-6' >{post.title}</h3>
                   <h4 className='text-base mt-3' >
                       {/* map over authors array */}
@@ -99,8 +100,8 @@ function BlogPage() {
         
          
         ))} 
-        </div>
-        </div>
+        </section>
+        </main>
       </div>
     
       </div>
