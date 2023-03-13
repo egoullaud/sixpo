@@ -14,8 +14,8 @@ function Home() {
      
       <section id='home-page-hero'>
         <div className='relative z-0'>
-        <a href="https://affecttheverb.com/disabledandhere/" target="_blank"> 
-          <img src={heroImg} alt="Six disabled people of color smile and pose in front of a concrete wall. Five people stand in the back, with the Black woman in the center holding up a chalkboard sign reading `disabled and here.` A South Asian person in a wheelchair sits in front. Photo attributed to Disabled and Here project." /></a> 
+        
+          <img src={heroImg} alt="Six disabled people of color smile and pose in front of a concrete wall. Five people stand in the back, with the Black woman in the center holding up a chalkboard sign reading `disabled and here.` A South Asian person in a wheelchair sits in front. Photo attributed to Disabled and Here project." />
         <div className='absolute inset-0 bg-black bg-opacity-40 z-10 h-[6vh]'>
           <h1 className='h-[6vh] flex items-center justify-center text-white text-center 
           lg:text-4xl'>
@@ -59,8 +59,7 @@ function Home() {
             </Link>
           </div>
           <div className='flex items-center justify-center w-[80%] lg:w-[30%] md:w-[50%]'>
-           <a href="https://affecttheverb.com/gallery/disabledandhere/proudlyqtpoc/" target="_blank"> 
-           <img className='rounded-md m-5' src={community} alt="Five disabled people of color with canes, prosthetic legs, and a wheelchair sit on a rooftop deck, laughing and sharing stories. Greenery and city high-rises are visible in the background. Photo attributed to Disabled and Here project." /></a>
+           <img className='rounded-md m-5' src={community} alt="Five disabled people of color with canes, prosthetic legs, and a wheelchair sit on a rooftop deck, laughing and sharing stories. Greenery and city high-rises are visible in the background. Photo attributed to Disabled and Here project." />
             {/* image */}
           </div>
           
