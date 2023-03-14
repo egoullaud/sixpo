@@ -9,6 +9,8 @@ function HomeCards() {
     <div >
         <div className='flex 
         flex-col
+        items-center
+        md:items-start
         md:flex-row
         justify-evenly 
         lg:mx-[5rem]'>
