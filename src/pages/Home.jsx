@@ -18,12 +18,13 @@ function Home() {
           <img src={heroImg} alt="Six disabled people of color smile and pose in front of a concrete wall. Five people stand in the back, with the Black woman in the center holding up a chalkboard sign reading `disabled and here.` A South Asian person in a wheelchair sits in front. Photo attributed to Disabled and Here project." />
         <div className='absolute inset-0 bg-black bg-opacity-40 z-10 h-[6vh]'>
           <h1 className='h-[6vh] flex items-center justify-center text-white text-center 
-          lg:text-4xl'>
+          lg:text-3xl
+          xl:text-3xl'>
            Sexuality | Inclusion | Exploration</h1>
         </div>
         <div className='absolute bottom-0 bg-[#404344] bg-opacity-80 z-10 h-[4vh] lg:h-[6vh] w-[100%]'>
           <div className='flex justify-center items-center '>
-            <h2 className='uppercase font-semibold text-white lg:text-2xl text-sm'> Join us at Sixpo Festival 2023 | 
+            <h2 className='uppercase font-semibold text-white lg:text-2xl text-sm lg:py-2'> Join us at Sixpo Festival 2023 | 
             <Link to='/events'
              className=' lg:text-xl uppercase font-semibold hover:underline hover:transition-all hover:duration-500 hover:text-[#ffef91] hover:font-bold'>Learn More</Link></h2>
           </div>
@@ -33,22 +34,22 @@ function Home() {
      
       <Sponsors/>
       
-      <section className='md:mx-[2rem] lg:mx-[5rem] lg:mt-[5rem] md:mt-[5rem]' id='sixpo-intro'>
+      <section className='md:mx-[2rem] lg:mx-[3rem] lg:mt-[5rem] md:mt-[5rem]' id='sixpo-intro'>
         
       <section>
         {/* //section title */}
        
-        <div className='flex flex-col md:flex-row justify-evenly items-center my-[2rem]'>
+        <div className='flex flex-col md:flex-row justify-around items-center my-[2rem]'>
           {/* //container  */}
           
-          <div className=' w-[100%] md:w-[50%]  flex flex-col items-center p-4'>
+          <div className=' w-[100%] md:w-[50%]  flex flex-col items-center  p-4'>
             {/* about  */}
             
             <h3 className='mb-[4rem] font-bold
             text-xl
              md:text-3xl
              lg:text-5xl '>What is Sixpo?</h3>
-            <p className='text-justify md:text-center mb-[2rem]'>
+            <p className='text-justify md:text-center mb-[2rem] lg:mx-[1rem]'>
             SIXPO is a festival organized by and for folks with disabilities, where we will discuss, reflect 
             and learn together about all sorts of topics related to relationships and sexual wellness! There will be panel 
             discussions, speakers and workshops, with plenty of opportunities to engage in conversations with peers and experts 
@@ -64,7 +65,7 @@ function Home() {
                         Learn More</button>
             </Link>
           </div>
-          <div className='flex items-center justify-center w-[80%] lg:w-[50%]'>
+          <div className='flex items-center justify-center w-[80%] lg:w-[48%]'>
            <img className='rounded-md m-5' src={community} alt="Five disabled people of color with canes, prosthetic legs, and a wheelchair sit on a rooftop deck, laughing and sharing stories. Greenery and city high-rises are visible in the background. Photo attributed to Disabled and Here project." />
             {/* image */}
           </div>
