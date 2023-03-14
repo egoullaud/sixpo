@@ -29,15 +29,13 @@ function Events() {
               </p>
             <p className='m-[2rem] lg:text-xl'> 
               <span className='font-bold'>Description: </span> 
-              SIXPO (Sexuality, Inclusion and Exploration) is a festival organized by and for folks with disabilities, 
-              in which we will discuss, reflect and learn together about all sorts of topics related to sexual 
-              wellness! There will be panel discussions, speakers and workshops, with plenty of opportunities to 
-              engage in conversations with peers and experts about a broad range of topics. Whether these types of
-               conversations are brand new for you, or you are really confident in discussing sexuality, we will 
-               have events that are right for you!
+              SIXPO (Sexuality, Inclusion and Exploration) is a festival organized by and for folks with disabilities. 
+              In order to be as accessible as possible, the 2023 festival will be a hybrid model, meaning that some events will be online and 
+              others will be in person. We hope to bring together a diverse group of people to discuss topics of sexuality in a supportive,
+               collaborative and welcoming environment, and we hope you’ll join us!
             </p>
           <h3 className='font-bold text-2xl mx-[2rem]'>What to Expect</h3>
-          <p className=' mx-[2rem] my-[1rem] text-xl'>SIXpo: Sexuality, Inclusion and eXploration is a three week virtual expo run by and for folks with disabilities. During the three weeks we will host a number of online workshops, panels, presentations and discussions over zoom. </p>
+          <p className=' mx-[2rem] my-[1rem] text-xl'>You can expect a variety of vendors, presentations and workshops from a wide variety of organizations, experts and advocates! </p>
           <ul className='mx-[4rem] list-decimal'>
             <li className='my-2'>Week one will focus on the basics, introductory workshops, participants will have time to reflect on where they are at with their relationship to sexuality and maybe a chance to meet others who are attending SIXpo. </li>
             <li className='my-2'>Week two will dig deeper into topics of sexual health, sexual identity, consent, and self pleasure! </li>
