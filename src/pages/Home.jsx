@@ -21,7 +21,7 @@ function Home() {
           lg:text-4xl'>
            Sexuality | Inclusion | Exploration</h1>
         </div>
-        <div className='absolute bottom-0 bg-[#404344] bg-opacity-80 z-10 h-[4vh] w-[100%]'>
+        <div className='absolute bottom-0 bg-[#404344] bg-opacity-80 z-10 h-[4vh] lg:h-[6vh] w-[100%]'>
           <div className='flex justify-center items-center '>
             <h2 className='uppercase font-semibold text-white lg:text-2xl text-sm'> Join us at Sixpo Festival 2023 | 
             <Link to='/events'
@@ -30,26 +30,32 @@ function Home() {
         </div>
         </div>
       </section>
+     
       <Sponsors/>
+      
       <section className='md:mx-[2rem] lg:mx-[5rem] lg:mt-[5rem] md:mt-[5rem]' id='sixpo-intro'>
+        
       <section>
         {/* //section title */}
        
         <div className='flex flex-col md:flex-row justify-evenly items-center my-[2rem]'>
           {/* //container  */}
-          <div className=' w-[100%] md:w-[40%] flex flex-col items-center p-4'>
+          
+          <div className=' w-[100%] md:w-[50%]  flex flex-col items-center p-4'>
             {/* about  */}
-            <h3 className='mb-4 font-bold
+            
+            <h3 className='mb-[4rem] font-bold
             text-xl
-             md:text-2xl
-             lg:text-3xl '>What is Sixpo?</h3>
-            <p className='text-justify md:text-center'>
-            We are a non-profit organization for folks who want to learn more about sexuality, and especially for folks with a lived experience of disability and those who support them. Whether you have never gone on a date, or you feel like you are a sexual expert, Sixpo is for you!
-            <br/> <br/>
-           
-            SIXPO (Sexuality, Inclusion and Exploration) is a festival organized by and for folks with disabilities to discuss, reflect and learn about sexual wellness!
+             md:text-3xl
+             lg:text-5xl '>What is Sixpo?</h3>
+            <p className='text-justify md:text-center mb-[2rem]'>
+            SIXPO is a festival organized by and for folks with disabilities, where we will discuss, reflect 
+            and learn together about all sorts of topics related to relationships and sexual wellness! There will be panel 
+            discussions, speakers and workshops, with plenty of opportunities to engage in conversations with peers and experts 
+            about a broad range of topics. Whether these types of conversations are brand new for you, or you are really confident 
+            in talking about sexuality, we have events that are right for you!
             </p>
-            <Link className='lg:w-[45%] flex justify-center' to='/about'>
+            <Link className='md:w-[45%] lg:w-[65%] flex justify-center' to='/about'>
               <button className='m-4 text-white bg-[#ff5b5b] rounded-lg font-bold shadow-lg
               py-2 px-4
               md:py-2 md:px-4 
@@ -58,14 +64,19 @@ function Home() {
                         Learn More</button>
             </Link>
           </div>
-          <div className='flex items-center justify-center w-[80%] lg:w-[30%] md:w-[50%]'>
+          <div className='flex items-center justify-center w-[80%] lg:w-[50%]'>
            <img className='rounded-md m-5' src={community} alt="Five disabled people of color with canes, prosthetic legs, and a wheelchair sit on a rooftop deck, laughing and sharing stories. Greenery and city high-rises are visible in the background. Photo attributed to Disabled and Here project." />
             {/* image */}
           </div>
           
         </div>
         <div>
-            {/* call to action area */}
+        <section className='xl:text-5xl lg:text-5xl
+       md:text-5xl md:py-[5rem]
+       text-3xl py-[5rem]
+        italic font-bold text-center w-[100%]'>
+        <h2 >Intimacy is for everyone.</h2>
+      </section>
             
           </div>
       </section>
