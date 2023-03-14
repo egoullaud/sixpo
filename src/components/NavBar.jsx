@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import logo from '../assets/sixpo-logo.png'
 import { Link } from 'react-router-dom'
-import {AiOutlineMenu, AiOutlineClose} from 'react-icons/ai'
+import {AiOutlineMenu, AiOutlineClose, AiFillInstagram, AiFillFacebook} from 'react-icons/ai'
 
 function NavBar() {
     const [nav, setNav] = useState(false);
@@ -9,13 +9,12 @@ function NavBar() {
         setNav(!nav);
     }
   return (
-    <nav className='flex justify-between items-center h-[13vh] bg-black text-white overflow-x-hidden'>
-        {/* <nav className='
-        h-[13vh] 
-        md:flex  md:h-[13vh] md:px-4 
-        lg:h-[15vh] 
-         bg-black text-white font-bold'> */}
-            
+  
+         
+    <nav className='bg-black '>
+             
+           <div className='flex justify-between items-center h-[13vh] bg-black text-white'>
+           
             <h1 className='h-[13vh] w-[25%] flex  md:hidden z-10'>
                 <Link to='/home'> 
                     <img className='w-[100%] m-2 justify-center items-center ' src={logo} alt="SIXpo logo: a bright pink heart with the word SIXPO in yellow across the front and the word Festival printed in outlined letters below." />
@@ -36,7 +35,9 @@ function NavBar() {
                 <li><Link className='lg:mx-[4rem] md:mx-[3rem] hover:transition-all hover:duration-500 hover:underline hover:text-[#ffef91]' to='/blog'>Our Blog</Link></li>
                 <li><Link className='lg:mx-[4rem] md:mx-[3rem] hover:transition-all hover:duration-500 hover:underline hover:text-[#ffef91]' to='/resources'>Resources</Link></li>
             </ul>
-        {/* </nav> */}
+            </div> 
+            
+      
         {/* mobile navigation */}
         <div onClick={handleNav} className='block md:hidden mx-4 mb-2 z-10 ease-in-out duration-500'>
                 {!nav ? <AiOutlineMenu size={25}/> : <AiOutlineClose size={25}/> }
@@ -47,14 +48,19 @@ function NavBar() {
                     <img className='w-[100%] m-2 justify-center items-center ' src={logo} alt="SIXpo logo: a bright pink heart with the word SIXPO in yellow across the front and the word Festival printed in outlined letters below." />
                 </Link>
             </h1>
-        <ul className='flex flex-col items-start uppercase w-[100%] pt-2 lg:py-5 lg:mx-[8rem]'>
+        <ul className='flex flex-col items-start uppercase w-[100%] pt-2'>
                 <li className='my-1 p-2 w-[100%] border-b-2 border-gray-200 hover:ease-in-out hover:duration-500 hover:underline hover:text-[#ffef91]'><Link  to='/about'>About Us</Link></li> 
                 <li className='my-1 p-2 w-[100%] border-b-2 border-gray-200 hover:ease-in-out hover:duration-500 hover:underline hover:text-[#ffef91]'><Link  to='/events'>Events</Link></li>
                 <li className='my-1 p-2 w-[100%] border-b-2 border-gray-200 hover:ease-in-out hover:duration-500 hover:underline hover:text-[#ffef91]'><Link  to='/blog'>Our Blog</Link></li>
                 <li className='my-1 p-2 w-[100%] border-b-2 border-gray-200 hover:ease-in-out hover:duration-500 hover:underline hover:text-[#ffef91]'><Link  to='/resources'>Resources</Link></li>
             </ul>
+            <ul className='flex mx-2 text-white text-2xl pt-2'>
+               <a href="https://www.instagram.com/yvrsixpo/" target="_blank"> <li className='mr-2'><AiFillInstagram/></li></a>
+               <a href="https://www.facebook.com/yvrsixpo/" target="_blank">  <li><AiFillFacebook/></li></a>
+            </ul>
         </div>
     </nav>
+    
   )
 }
 
