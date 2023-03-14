@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import logo from '../assets/sixpo-logo.png'
+import {AiFillInstagram, AiFillFacebook} from 'react-icons/ai'
 
 function Footer() {
   return (
@@ -11,15 +12,19 @@ function Footer() {
         justify-between items-center bg-black text-white px-2'
     >
         <div className='
-          flex
+          flex flex-col
           w-[100%]
           md:w-[20%] 
           justify-center 
           items-center'
         >
-            <Link className='w-[50%] md:w-[100%]' to='/'>
+            <Link className='w-[50%] md:w-[100%]' to='/home'>
                 <img src={logo} alt="SIXpo logo: a bright pink heart with the word SIXPO in yellow across the front and the word Festival printed in outlined letters below." /> 
             </Link> 
+            <ul className='flex mx-2 text-white text-2xl pt-2 bg-black'>
+               <a href="https://www.instagram.com/yvrsixpo/" target="_blank"> <li className='mr-2'><AiFillInstagram/></li></a>
+               <a href="https://www.facebook.com/yvrsixpo/" target="_blank">  <li><AiFillFacebook/></li></a>
+            </ul>
         </div>
         <div className='
         w-[100%]
