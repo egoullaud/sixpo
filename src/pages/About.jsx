@@ -37,19 +37,19 @@ function About() {
               SIXpo: Sexuality, Inclusion and eXploration is a three week virtual expo run by and for folks with disabilities. During the three 
               weeks we will host a number of online workshops, panels, presentations and discussions over zoom. </h1>
               <h2 className='w-[75%] lg:text-lg md:text-base mb-2 text-justify font-semibold xl:text-2xl'> 
-              Our Mission
+              Who is behind Sixpo?
               </h2>
+              <p>SIXPO is the product of a lot of hard work by a bold, growing group of advocates, people working in the disability support sector, sexual health professionals, and many more. This year’s festival has been made possible by a grant from Community Living BC, managed by Options for Sexual Health with support from Building Caring Communities and Real Talk, and generous donations of time, money and other resources by: </p>
               <ul className='xl:w-[70%] list-disc'>
-                <li>SIXpo is an expo with different presenters, events, activities, and experiences.</li>
-                <li>SIXpo is based in Greater Vancouver, and welcomes people from around the world to our online platform.</li>
-                <li>SIXpo brings together resources for sexual, physical, mental, and emotional health – and shares them with everyone. </li>
-                <li>SIXpo is an accessible space to learn, discover, share knowledge, collaborate, and reflect.</li>
-                <li>SIXpo is an inclusive space where all people are welcome – all bodies, minds, genders, cultures, and orientations – and we are particularly committed to welcoming people with disabilities. </li>
-                <li>SIXpo celebrates the sexualities and identities of all people.</li>
-                <li>SIXpo brings people together to build a movement in society.</li>
-                <li>SIXpo is the first in an annual series.</li>
-                <li>SIXpo helps all people realize their sexual potential.</li>
+                <li>PosAbilities</li>
+                <li>Inclusion Powell River</li>
+                <li>AbOUT</li>
+                <li>CAN BC</li>
+                <li>Techlink </li>
               </ul>
+              <h3 className='w-[75%] lg:text-lg md:text-base mb-2 text-justify font-semibold xl:text-2xl'> 
+              Who is Sixpo for?
+              </h3>
               <p className='w-[85%] lg:text-xl md:text-lg font-semibold text-center my-[2rem]'>
               SIXpo is for folks who want to learn more about sexuality and especially for folks with lived experience of disability and 
               their support. Whether you have never gone on a date, or you feel like you are a sexual expert, SIXpo is for you! Wherever you are 
