@@ -67,9 +67,10 @@ function Events() {
              
           </div>
           <div className='flex flex-col items-center justify-evenly 
-                      md:w-[40%] md:items-start md:flex-row
+                      md:w-[45%] md:items-start md:flex-row
                       lg:w-[50%]'>
             <img className='rounded-md  
+                      p-4
                       md:w-[100%] 
                       lg:w-[60%] lg:m-[3rem]' 
             src={festivalPhoto} 
@@ -91,9 +92,12 @@ function Events() {
         </div>
 
       </section>
-      <section className='flex justify-evenly bg-black  text-white  border-b-2 border-b-[#ff7070] py-[3rem]'>
-        <div className='flex flex-col justify-center items-center md:w-[50%] my-[3rem]'>
-        
+      {/* directions and contact form */}
+      <section className='flex justify-evenly bg-black  text-white  border-b-2 border-b-[#ff7070] py-[3rem]
+      flex-col
+      lg:flex-row'>
+        <div className='flex flex-col justify-center items-center lg:w-[50%] my-[3rem]'>
+        <h1 className='font-bold text-3xl my-5'>Directions</h1>
         <iframe 
         className='rounded-md md:w-[80%]'
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8509.420531012636!2d-123.10118997099245!3d49.25750888275255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548673e3669ce3ad%3A0x7c84d4bd7f6028b3!2sHeritage%20Hall!5e0!3m2!1sen!2sca!4v1676149056413!5m2!1sen!2sca"
@@ -105,7 +109,7 @@ function Events() {
          referrerpolicy="no-referrer-when-downgrade">
 
          </iframe>
-         <div className='flex  justify-start m-5 w-[70%]'>
+         <div className='flex  justify-start m-5 lg:w-[70%]'>
             <h2 className='font-bold text-2xl p-2 underline'>Location:</h2>
            <a target="_blank" href="https://www.google.com/maps/place/Heritage+Hall/@49.2572552,-123.1030644,17z/data=!3m2!4b1!5s0x548673e3716e6ddd:0xff07acb7c8760d7d!4m6!3m5!1s0x548673e3669ce3ad:0x7c84d4bd7f6028b3!8m2!3d49.2572552!4d-123.1008704!16s%2Fm%2F0n9gps0"> 
            <p className='px-5 hover:underline hover:transition-all hover:duration-500'>
@@ -114,8 +118,8 @@ function Events() {
                 Vancouver, BC V5T 3G7</p></a> 
             </div>
         </div>
-        <div className='md:w-[50%] p-[3rem] lg:w-[30%]'>
-
+        <div className='w-[75%] p-[3rem] lg:w-[30%] mx-auto'>
+            <h1 className='text-3xl font-bold text-center my-3'>Contact Us</h1>
           <Form/>
         </div>
 
