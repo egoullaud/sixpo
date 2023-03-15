@@ -1,6 +1,6 @@
 import React from 'react'
-import BlogCard from '../components/BlogCard'
-import BlogCategory from '../components/BlogCategory'
+import BlogCard from '../components/blog/BlogCard'
+import BlogCategory from '../components/blog/BlogCategory'
 
 function Blog() {
   return (

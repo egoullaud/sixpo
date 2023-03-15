@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import moment from 'moment'
-import BlogCategory from '../components/BlogCategory'
+import BlogCategory from '../components/blog/BlogCategory'
 
 
 const POSTS_QUERY = `
