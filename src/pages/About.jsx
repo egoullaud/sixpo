@@ -91,7 +91,11 @@ function About() {
               </h2>
               <p className='w-[90%] text-left px-4'>SIXPO is the product of a lot of hard work by a bold, growing group of advocates, people working in the disability support sector, 
                 sexual health professionals, and many more. This year’s festival has been made possible by a grant from Community Living BC, managed by Options for 
-                Sexual Health with support from Building Caring Communities and Real Talk, and generous donations of time, money and other resources by: </p>
+                Sexual Health with support from Building Caring Communities and Real Talk, and generous donations of time, money and other resources. </p>
+                <h3 className='mb-4 font-bold w-[100%] px-4
+                   text-xl
+                   md:text-xl
+                   lg:text-2xl'>Our Sponsors and partners</h3>
               <ul className='w-[75%] list-disc px-8 mb-[2rem]'>
                 <li>PosAbilities</li>
                 <li>Inclusion Powell River</li>
