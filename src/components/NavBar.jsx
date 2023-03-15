@@ -12,9 +12,7 @@ function NavBar() {
   
          
     <nav className='flex justify-between items-center h-[13vh] lg:h-[15vh] bg-black text-white'>
-             
-          
-           
+  
             <h1 className='h-[13vh] w-[25%] flex  md:hidden z-10'>
                 <Link to='/home'> 
                     <img className='w-[100%] m-2 justify-center items-center ' src={logo} alt="SIXpo logo: a bright pink heart with the word SIXPO in yellow across the front and the word Festival printed in outlined letters below." />
@@ -28,11 +26,11 @@ function NavBar() {
                 <li><Link className='
                 xl:mx-[2rem]
                 lg:mx-[4rem] 
-                md:mx-[3rem] 
+                md:mx-[2rem] 
                 hover:transition-all hover:duration-500 hover:underline hover:text-[#ffef91]' to='/about'>About Us</Link></li> 
                 <li><Link className='xl:mx-[2rem]
                 lg:mx-[4rem] 
-                md:mx-[3rem] 
+                md:mx-[2rem] 
                 hover:transition-all hover:duration-500 hover:underline hover:text-[#ffef91]' to='/events'>Events</Link></li>
                 <li className='lg:w-[11%] md:w-[15%]'>
                     <Link to='/home'> 
@@ -42,11 +40,11 @@ function NavBar() {
                 </li>
                 <li><Link className='xl:mx-[2rem]
                 lg:mx-[4rem] 
-                md:mx-[3rem] 
+                md:mx-[2rem] 
                 hover:transition-all hover:duration-500 hover:underline hover:text-[#ffef91]' to='/blog'>Our Blog</Link></li>
                 <li><Link className='xl:mx-[2rem]
                 lg:mx-[4rem] 
-                md:mx-[3rem] 
+                md:mx-[2rem] 
                 hover:transition-all hover:duration-500 hover:underline hover:text-[#ffef91]' to='/resources'>Resources</Link></li>
             </ul>
            
