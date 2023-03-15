@@ -64,7 +64,7 @@ function BlogCard() {
                              md:w-[90%] lg:flex-row'
                       key={post.id}>
                    <Link className='w-[100%] object-cover lg:ml-4' to={"/blog/"+post.slug}> 
-                      <img  className='rounded' src={post.image.url} alt={post.image.altText} />
+                      <img  className='rounded  max-h-56' src={post.image.url} alt={post.image.altText} />
                    </Link>
                     <div className='flex flex-col text-center mr-4 mb-4
                                   md:text-left'>
