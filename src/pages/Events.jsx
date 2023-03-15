@@ -6,21 +6,32 @@ import Form from '../components/Form.jsx'
 function Events() {
   return (
     <div>
+      {/* hero */}
       <section className='flex'>
-        <div className='lg:w-[35%] lg:h-[80vh] md:w-1/4 z-0 bg-black bg-opacity-50'>
+        <aside className='lg:w-[35%] lg:h-[80vh] md:w-1/4 z-0 bg-black bg-opacity-50'>
 
           <h1 className='font-bold md:text-3xl lg:text-5xl text-white my-[50%] md:mx-[1rem] lg:mx-[3rem]'>
             You're Invited! <br/> Join us at the SIXPO Festival April 2023</h1>
 
-        </div>
+        </aside>
         <div className='md:w-3/4 lg:w-[100%] lg:h-[80vh]'>
-         <img className='lg:w-full lg:h-[80vh] md:h-full object-cover object-top' src={eventHero} alt="Three Black and disabled folx (a non-binary person holding a cane, a non-binary person sitting in a power wheelchair, and a femme sitting in a chair) look seriously at the camera while a rainbow pride flag drapes on the wall behind them. Photo attributed to Disabled and Here project." />
+         <img className='lg:w-full lg:h-[80vh] md:h-full object-cover object-top' 
+         src={eventHero} 
+         alt="Three Black and disabled folx (a non-binary person holding a cane, a non-binary person 
+         sitting in a power wheelchair, and a femme sitting in a chair) look seriously at the camera while a rainbow pride 
+         flag drapes on the wall behind them. Photo attributed to Disabled and Here project." />
         </div>
       </section>
+      {/* event details */}
       <section className='flex flex-col bg-white my-[4rem]'>
-        <div className=' flex justify-evenly md:items-center'>
-          <div className='flex flex-col lg:w-[40%] md:w-[40%]'>
-            <h2 className='font-bold text-2xl lg:text-5xl m-[2rem] underline'>Event Details</h2>
+        <div className=' flex justify-evenly 
+                md:items-center'>
+          <div className='flex flex-col  
+                md:w-[60%]
+                lg:w-[40%]'>
+            <h2 className='font-bold text-2xl m-[2rem] underline
+                lg:text-5xl'>
+                  Event Details</h2>
             
             <p className=' mx-[2rem] lg:text-xl'> 
             <span className='font-bold lg:text-2xl'>Virtual:</span> April 1 - 19, 2023 <br/>
@@ -34,19 +45,51 @@ function Events() {
               others will be in person. We hope to bring together a diverse group of people to discuss topics of sexuality in a supportive,
                collaborative and welcoming environment, and we hope you’ll join us!
             </p>
-          <h3 className='font-bold text-2xl mx-[2rem]'>What to Expect</h3>
+            <div className='flex justify-center'>
+            <button className=' text-white bg-[#ff5b5b] rounded-lg font-bold shadow-lg
+                      py-2 px-4
+                      md:py-2 md:px-4 
+                      lg:px-8 lg:py-3 lg:text-lg 
+                      hover:transition-all hover:duration-500 hover:bg-[#ff7070]'>Register</button>
+            <button className='mx-10
+             text-white bg-[#ff5b5b] rounded-lg font-bold shadow-lg
+             py-2 px-4
+             md:py-2 md:px-4 
+             lg:px-8 lg:py-3 lg:text-lg 
+             hover:transition-all hover:duration-500 hover:bg-[#ff7070]'>Learn More</button>
+            <button className=' text-white bg-[#ff5b5b] rounded-lg font-bold shadow-lg
+                      py-2 px-4
+                      md:py-2 md:px-4 
+                      lg:px-8 lg:py-3 lg:text-lg 
+                      hover:transition-all hover:duration-500 hover:bg-[#ff7070]'>Donate</button>
+            </div>
+        
+             
+          </div>
+          <div className='flex flex-col items-center justify-evenly 
+                      md:w-[40%] md:items-start md:flex-row
+                      lg:w-[50%]'>
+            <img className='rounded-md  
+                      md:w-[100%] 
+                      lg:w-[60%] lg:m-[3rem]' 
+            src={festivalPhoto} 
+            alt="A man hugs his fiance while she smiles and tugs the bill of his hat." />
+          </div>
+        </div>
+       
+      </section>
+      {/* what to expect */}
+      <section>
+        <div>
+        <h3 className='font-bold text-2xl mx-[2rem]'>What to Expect</h3>
           <p className=' mx-[2rem] my-[1rem] text-xl'>You can expect a variety of vendors, presentations and workshops from a wide variety of organizations, experts and advocates! </p>
           <ul className='mx-[4rem] list-decimal'>
             <li className='my-2'>Week one will focus on the basics, introductory workshops, participants will have time to reflect on where they are at with their relationship to sexuality and maybe a chance to meet others who are attending SIXpo. </li>
             <li className='my-2'>Week two will dig deeper into topics of sexual health, sexual identity, consent, and self pleasure! </li>
             <li className='my-2'>Week three will be concluding discussions, summary workshops and celebrating what we’ve all learned! </li>
           </ul>
-             
-          </div>
-          <div className='flex items-center justify-evenly lg:w-[50%] md:w-[60%]'>
-            <img className='m-[3rem] lg:w-[60%] md:w-[70%] rounded-md' src={festivalPhoto} alt="A man hugs his fiance while she smiles and tugs the bill of his hat." />
-          </div>
         </div>
+
       </section>
       <section className='flex justify-evenly bg-black  text-white  border-b-2 border-b-[#ff7070] py-[3rem]'>
         <div className='flex flex-col justify-center items-center md:w-[50%] my-[3rem]'>
