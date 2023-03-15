@@ -2,38 +2,56 @@ import React from 'react'
 import eventHero from '../assets/disabled-rep-flag.jpg'
 import festivalPhoto from '../assets/Delone-Kelsey.jpg'
 import Form from '../components/Form.jsx'
+import { Link } from 'react-router-dom'
 
 function Events() {
   return (
     <div>
       {/* hero */}
-      <section className='flex'>
-        <aside className='lg:w-[35%] lg:h-[80vh] md:w-1/4 z-0 bg-black bg-opacity-50'>
+      <section className='flex items-center bg-black bg-opacity-50'>
+        <aside className='z-0
+                w-[25%]
+                md:w-1/4
+                lg:w-[35%] lg:h-[80vh]'>
 
-          <h1 className='font-bold md:text-3xl lg:text-5xl text-white my-[50%] md:mx-[1rem] lg:mx-[3rem]'>
-            You're Invited! <br/> Join us at the SIXPO Festival April 2023</h1>
-
+            <h1 className='flex items-center justify-center font-bold text-white
+                          text-sm
+                          md:text-3xl md:mx-[1rem]
+                          lg:text-5xl  lg:mx-[3rem]'>
+              You're Invited! <br/> Join us at the SIXPO Festival April 2023</h1>
         </aside>
-        <div className='md:w-3/4 lg:w-[100%] lg:h-[80vh]'>
-         <img className='lg:w-full lg:h-[80vh] md:h-full object-cover object-top' 
-         src={eventHero} 
-         alt="Three Black and disabled folx (a non-binary person holding a cane, a non-binary person 
-         sitting in a power wheelchair, and a femme sitting in a chair) look seriously at the camera while a rainbow pride 
-         flag drapes on the wall behind them. Photo attributed to Disabled and Here project." />
+        <div className='
+                  w-[90%]
+                  md:w-3/4 
+                  lg:w-[100%] lg:h-[80vh]'>
+            <img className='object-cover object-top
+                        md:h-full
+                        lg:w-full lg:h-[80vh] ' 
+            src={eventHero} 
+            alt="Three Black and disabled folx (a non-binary person holding a cane, a non-binary person 
+            sitting in a power wheelchair, and a femme sitting in a chair) look seriously at the camera while a rainbow pride 
+            flag drapes on the wall behind them. Photo attributed to Disabled and Here project." />
         </div>
       </section>
       {/* event details */}
-      <section className='flex flex-col bg-white my-[4rem]'>
+      <section className='flex flex-col bg-white 
+                md:my-[4rem]'>
         <div className=' flex justify-evenly 
-                md:items-center'>
+                flex-col
+                md:items-center md:flex-row'>
           <div className='flex flex-col  
                 md:w-[60%]
                 lg:w-[40%]'>
-            <h2 className='font-bold text-2xl m-[2rem] underline
+            <h2 className='font-bold  m-[2rem] underline
+                text-xl
+                md:text-2xl
                 lg:text-5xl'>
                   Event Details</h2>
             
-            <p className=' mx-[2rem] lg:text-xl'> 
+            <p className=' mx-[2rem] 
+                  text-base
+                  md:text-xl
+                  lg:text-xl'> 
             <span className='font-bold lg:text-2xl'>Virtual:</span> April 1 - 19, 2023 <br/>
              <span className='font-bold lg:text-2xl'>In-person:</span> April 20 - 22, 2023 <br/>
              <span className='font-bold lg:text-2xl'>Cost:</span> By Donation<br/>
@@ -44,26 +62,32 @@ function Events() {
               In order to be as accessible as possible, the 2023 festival will be a hybrid model, meaning that some events will be online and 
               others will be in person. We hope to bring together a diverse group of people to discuss topics of sexuality in a supportive,
                collaborative and welcoming environment, and we hope you’ll join us!
+               <br /><br />
+               While SIXPO is a free event, our venue has limited capacity and we want to be as prepared to welcome as many of you as possible, 
+               and this means that signing up ahead of time will help us out a lot. 
+
             </p>
-            <div className='flex justify-center'>
-            <button className=' text-white bg-[#ff5b5b] rounded-lg font-bold shadow-lg
+            <div className='flex justify-center mb-[3rem]'>
+            {/* <Link to='/about'> <button className=' text-white bg-[#ff5b5b] rounded-lg font-bold shadow-lg
+                      py-2 px-2
+                      md:py-2 md:px-4 
+                      lg:px-8 lg:py-3 lg:text-lg 
+                      hover:transition-all hover:duration-500 hover:bg-[#ff7070]'>Learn More</button></Link> */}
+                  <a href="https://www.eventbrite.ca/e/sixpo-festival-tickets-530930426197" target="_blank"> 
+                      <button className='
+                      text-white bg-[#ff5b5b] rounded-lg font-bold shadow-lg
+                      py-2 px-4
+                      md:py-2 md:px-4 md:mx-10
+                      lg:px-8 lg:py-3 lg:text-lg 
+                      hover:ease-in-out hover:duration-500 hover:bg-[#ff7070]'>Register with Eventbrite</button></a>
+                  {/* <Link to='/'> 
+                      <button className=' text-white bg-[#ff5b5b] rounded-lg font-bold shadow-lg
                       py-2 px-4
                       md:py-2 md:px-4 
                       lg:px-8 lg:py-3 lg:text-lg 
-                      hover:transition-all hover:duration-500 hover:bg-[#ff7070]'>Register</button>
-            <button className='mx-10
-             text-white bg-[#ff5b5b] rounded-lg font-bold shadow-lg
-             py-2 px-4
-             md:py-2 md:px-4 
-             lg:px-8 lg:py-3 lg:text-lg 
-             hover:transition-all hover:duration-500 hover:bg-[#ff7070]'>Learn More</button>
-            <button className=' text-white bg-[#ff5b5b] rounded-lg font-bold shadow-lg
-                      py-2 px-4
-                      md:py-2 md:px-4 
-                      lg:px-8 lg:py-3 lg:text-lg 
-                      hover:transition-all hover:duration-500 hover:bg-[#ff7070]'>Donate</button>
+                      hover:ease-in-out hover:duration-500 hover:bg-[#ff7070]'>Donate</button></Link> */}
             </div>
-        
+     
              
           </div>
           <div className='flex flex-col items-center justify-evenly 
@@ -81,10 +105,11 @@ function Events() {
       </section>
       {/* what to expect */}
       <section>
-        <div>
-        <h3 className='font-bold text-2xl mx-[2rem]'>What to Expect</h3>
+        <div className='mb-[3rem]'>
+        <h3 className='font-bold text-2xl mx-[2rem] underline'>What to Expect</h3>
           <p className=' mx-[2rem] my-[1rem] text-xl'>You can expect a variety of vendors, presentations and workshops from a wide variety of organizations, experts and advocates! </p>
-          <ul className='mx-[4rem] list-decimal'>
+          <ul className=' list-decimal mx-[2.5rem]
+                      md:mx-[4rem]'>
             <li className='my-2'>Week one will focus on the basics, introductory workshops, participants will have time to reflect on where they are at with their relationship to sexuality and maybe a chance to meet others who are attending SIXpo. </li>
             <li className='my-2'>Week two will dig deeper into topics of sexual health, sexual identity, consent, and self pleasure! </li>
             <li className='my-2'>Week three will be concluding discussions, summary workshops and celebrating what we’ve all learned! </li>
@@ -93,13 +118,15 @@ function Events() {
 
       </section>
       {/* directions and contact form */}
-      <section className='flex justify-evenly bg-black  text-white  border-b-2 border-b-[#ff7070] py-[3rem]
-      flex-col
+      <section className='flex flex-col justify-evenly bg-black  text-white  border-b-2 border-b-[#ff7070] py-[2rem]
+      md:py-[3rem]
       lg:flex-row'>
-        <div className='flex flex-col justify-center items-center lg:w-[50%] my-[3rem]'>
+        <div className='flex flex-col justify-center items-center my-[3rem]
+                 lg:w-[50%] '>
         <h1 className='font-bold text-3xl my-5'>Directions</h1>
         <iframe 
-        className='rounded-md md:w-[80%]'
+        className='rounded-md w-[90%]
+        md:w-[80%]'
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8509.420531012636!2d-123.10118997099245!3d49.25750888275255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548673e3669ce3ad%3A0x7c84d4bd7f6028b3!2sHeritage%20Hall!5e0!3m2!1sen!2sca!4v1676149056413!5m2!1sen!2sca"
          width="600" 
          height="450" s
@@ -118,7 +145,9 @@ function Events() {
                 Vancouver, BC V5T 3G7</p></a> 
             </div>
         </div>
-        <div className='w-[75%] p-[3rem] lg:w-[30%] mx-auto'>
+        <div className='w-[100%] mx-auto p-5
+        md:w-[75%] md:p-[3rem]
+        lg:w-[30%] '>
             <h1 className='text-3xl font-bold text-center my-3'>Contact Us</h1>
           <Form/>
         </div>
