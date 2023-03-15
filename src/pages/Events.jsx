@@ -118,11 +118,11 @@ function Events() {
 
       </section>
       {/* directions and contact form */}
-      <section className='flex flex-col justify-evenly bg-black  text-white  border-b-2 border-b-[#ff7070] py-[2rem]
+      <section className='flex flex-col justify-evenly bg-black  text-white  border-b-2 border-b-[#ff7070] py-[2rem] w-[100%]
       md:py-[3rem]
       lg:flex-row'>
         <div className='flex flex-col justify-center items-center my-[3rem]
-                 lg:w-[50%] '>
+                 lg:w-[60%] '>
         <h1 className='font-bold text-3xl my-5'>Directions</h1>
         <iframe 
         className='rounded-md w-[90%]
@@ -147,7 +147,7 @@ function Events() {
         </div>
         <div className='w-[100%] mx-auto p-5
         md:w-[75%] md:p-[3rem]
-        lg:w-[30%] '>
+        lg:w-[40%] '>
             <h1 className='text-3xl font-bold text-center my-3'>Contact Us</h1>
           <Form/>
         </div>
