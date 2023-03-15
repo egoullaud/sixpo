@@ -9,7 +9,7 @@ function Events() {
     <div>
       {/* hero */}
       <section className='flex items-center bg-black bg-opacity-50'>
-        <aside className='z-0
+        <aside className='z-0 flex items-center
                 w-[25%]
                 md:w-1/4
                 lg:w-[35%] lg:h-[80vh]'>
@@ -17,7 +17,8 @@ function Events() {
             <h1 className='flex items-center justify-center font-bold text-white
                           text-sm
                           md:text-3xl md:mx-[1rem]
-                          lg:text-5xl  lg:mx-[3rem]'>
+                          lg:text-5xl  lg:mx-[1.5rem]
+                          xl:text-7xl xl:mx-[3rem]'>
               You're Invited! <br/> Join us at the SIXPO Festival April 2023</h1>
         </aside>
         <div className='
