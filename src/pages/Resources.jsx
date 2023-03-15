@@ -1,17 +1,18 @@
 import React from 'react'
-// import heartBg from '../assets/heart.png'
+import ResourceCard from '../components/resources/ResourceCard'
+
+
+
+
+
 function Resources() {
   return (
-    <div className='flex bg-heartBg bg-contain bg-no-repeat bg-bottom h-[100vh]' >
-     
-      <section className=''>
-     
-      
-        <div className='absolute md:top-[15%] w-[100%] mt-5'>
-              <h1 className='md:text-5xl font-bold w-[100%] text-center'>Resources</h1>
-          </div>
+    <div className='flex flex-col  bg-black bg-opacity-70 ' >  
+     <h1 className='font-bold w-[100%] text-white text-center my-5 text-3xl
+     md:text-5xl'>Resources</h1>
+      <section className='flex  '>
+         <ResourceCard/>
       </section>
-     
     </div>
   )
 }
