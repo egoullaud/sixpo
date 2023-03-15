@@ -60,12 +60,12 @@ function About() {
         
           {/* who is sixpo? */}
           <div className='flex  items-center justify-center
-          w-[105%]
+          w-[100%]
            md:flex-row md:pt-[3rem]
           lg:m-[4rem] md:m-[1rem] lg:pt-[5rem] '>
-              <div className='flex flex-col  items-center justify-center'>
-                  <img className='rounded-md 
-                  w-[50%] p-[2rem]
+              <div className='flex flex-col items-center justify-center'>
+                  <img className='rounded-md w-[80%] m-[2rem]
+                  md:w-[50%] md:p-[2rem]
                           ' 
                           src={coupleSmile} 
                           alt="A disabled man and woman sitting on a blanket in the grass smiling, 
@@ -112,8 +112,8 @@ function About() {
             md:w-[95%] md:flex-row md:pt-[3rem]
           lg:m-[4rem] md:m-[1rem] lg:pt-[5rem] '>
               <div className='flex flex-col  items-center justify-center '>
-                  <img className='rounded-md 
-                  w-[50%] p-[2rem]
+                  <img className='rounded-md w-[80%] m-[2rem]
+                  md:w-[50%] md:p-[2rem]
                           ' 
                           src={handHold} 
                           alt="Close up of disabled couple holding hands with interlaced fingers. A Black woman wears a floral printed skirt, 
@@ -144,9 +144,9 @@ function About() {
             </div>  
              </div>
        {/* sponsors */}
-        <div className='flex flex-col justify-center items-center '>
+        <div className='flex flex-col justify-center items-center my-[2rem] '>
 
-               <h3 className='mb-4 font-bold w-[100%] px-4 text-center
+               <h3 className='my-4 font-bold w-[100%] px-4 text-center
                    text-xl
                    md:text-xl
                    lg:text-2xl'>Our Sponsors and partners</h3>
