@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 function About() {
   return (
     <div>
-     
+     {/* hero */}
       <section>
         <div className='relative z-0'>
           <img  src={coupleBW} alt="black and white picture of a man and woman sitting on a blanket in the grass with their backs to the camera and the woman's arm wrapped lovingly around the back of her partner." />
@@ -47,7 +47,7 @@ function About() {
       </section>
       <section>
         {/* top paragraph */}
-        <div className='flex justify-center items-center mt-[5rem]'>
+        <div className='flex justify-center items-center my-[2rem] md:mt-[5rem]'>
           <h1 className='w-[90%]  text-black text-center font-bold 
                   text-base
                   md:text-xl
@@ -58,12 +58,12 @@ function About() {
         </div>
 
         
-          {/* what is sixpo for */}
-          <div className='flex items-center justify-center
-          w-[95%]
+          {/* who is sixpo? */}
+          <div className='flex  items-center justify-center
+          w-[105%]
            md:flex-row md:pt-[3rem]
           lg:m-[4rem] md:m-[1rem] lg:pt-[5rem] '>
-              <div className='flex '>
+              <div className='flex flex-col  items-center justify-center'>
                   <img className='rounded-md 
                   w-[50%] p-[2rem]
                           ' 
@@ -106,12 +106,12 @@ function About() {
               </div>
             </div>  
              </div>
-
-             <div className='flex items-center justify-center
-          w-[95%]
-           md:flex-row md:pt-[3rem]
+      {/* who is behind */}
+             <div className='flex  items-center justify-center
+            w-[100%]
+            md:w-[95%] md:flex-row md:pt-[3rem]
           lg:m-[4rem] md:m-[1rem] lg:pt-[5rem] '>
-              <div className='flex '>
+              <div className='flex flex-col  items-center justify-center '>
                   <img className='rounded-md 
                   w-[50%] p-[2rem]
                           ' 
@@ -143,7 +143,7 @@ function About() {
               </div>
             </div>  
              </div>
-       
+       {/* sponsors */}
         <div className='flex flex-col justify-center items-center '>
 
                <h3 className='mb-4 font-bold w-[100%] px-4 text-center
