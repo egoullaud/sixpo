@@ -57,7 +57,7 @@ function BlogPage() {
     return(
       <div>
         
-        <div className='flex bg-[#bcf0ff]'>
+        <div className='flex bg-black bg-opacity-70 '>
        
         <BlogCategory/>
           
