@@ -1,6 +1,6 @@
 import React from 'react'
-import BlogCategory from '../components/BlogCategory'
-import SelectedBlogCatCard from '../components/SelectedBlogCatCard'
+import BlogCategory from '../components/blog/BlogCategory'
+import SelectedBlogCatCard from '../components/blog/SelectedBlogCatCard'
 
 const SELECTED_BLOG_CATEGORY_QUERY =`
 {
