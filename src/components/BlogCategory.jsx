@@ -26,7 +26,9 @@ useEffect(() => {
 }, []);
 
   return (
-    <div className='w-[20%] border-r-[1px] border-r-black bg-white pt-[4rem]'>
+    <div className='flex items-center
+                    md:flex-col'>
+      <h1 className='font-bold text-center text-2xl my-5 underline'>Categories</h1>
         
         {/* <div className='flex items-center justify-center my-[2rem]'>
             <SearchBar/>
@@ -34,10 +36,13 @@ useEffect(() => {
         
         {blogCategories.map((blogCategory) =>
         {return (
-            <ul key={blogCategory.id} >
+            <ul 
+            className='flex w-[100%]'
+            key={blogCategory.id} >
            <Link to={"/posts/"+blogCategory.slug}>
                 <li
-                 className='font-semibold text-center text-xl py-2 border-t-[1px] border-t-black mx-1' >
+                 className='font-semibold text-center text-xl py-2 w-[100%]
+                 mx-1' >
                     {blogCategory.title}</li>
 
            </Link>
