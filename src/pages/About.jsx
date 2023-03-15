@@ -47,7 +47,8 @@ function About() {
       </section>
       <section>
         {/* top paragraph */}
-        <div className='flex justify-center items-center my-[2rem] md:mt-[5rem]'>
+        <div className='flex flex-col justify-center items-center my-[2rem] md:mt-[5rem]'>
+         
           <h1 className='w-[90%]  text-black text-center font-bold 
                   text-base
                   md:text-xl
@@ -55,17 +56,30 @@ function About() {
               SIXpo: Sexuality, Inclusion and eXploration is a three week virtual expo run by and for folks with disabilities. During the three 
               weeks we will host a number of online workshops, panels, presentations and discussions over zoom. 
             </h1>
+            <Link className='flex justify-center items-center 
+                          w-[60%]
+                          md:w-[60%] 
+                          mt-[1rem]
+                          ' 
+                          to='/events'>
+                      <button className=' hover:transition-all hover:duration-500 hover:bg-[#ff7070] text-white bg-[#ff5b5b] rounded-lg font-bold shadow-lg
+                          py-2 px-4
+                          md:py-2 md:px-4
+                          lg:px-8 lg:py-3 lg:text-lg'>
+                            Join the Event</button>
+                  </Link>
         </div>
 
         
           {/* who is sixpo? */}
-          <div className='flex  items-center justify-center
-          w-[100%]
-           md:flex-row md:pt-[3rem]
-          lg:m-[4rem] md:m-[1rem] lg:pt-[5rem] '>
-              <div className='flex flex-col items-center justify-center'>
+          <div className='flex items-center justify-center
+                    w-[100%]
+                    md:w-[95%] md:flex-row md:pt-[3rem]
+                    lg:m-[4rem] md:m-[1rem] lg:pt-[5rem] '>
+              <div className='flex flex-col  items-center justify-center 
+              md:flex-row'>
                   <img className='rounded-md w-[80%] m-[2rem]
-                  md:w-[50%] md:p-[2rem]
+                  md:w-[40%] md:m-[2rem]
                           ' 
                           src={coupleSmile} 
                           alt="A disabled man and woman sitting on a blanket in the grass smiling, 
@@ -88,17 +102,7 @@ function About() {
                 in your relationship to sexuality, that is where you are supposed to be. We can all learn and explore a little more about sexuality, so come join!
                 </p>
              
-                <Link className='flex justify-center items-center 
-                          w-[60%]
-                          md:w-[60%] 
-                          ' 
-                          to='/events'>
-                      <button className=' hover:transition-all hover:duration-500 hover:bg-[#ff7070] text-white bg-[#ff5b5b] rounded-lg font-bold shadow-lg
-                          py-2 px-4
-                          md:py-2 md:px-4
-                          lg:px-8 lg:py-3 lg:text-lg'>
-                            Join the Event</button>
-                  </Link>
+               
                 </div>
                   
                 
@@ -107,13 +111,14 @@ function About() {
             </div>  
              </div>
       {/* who is behind */}
-             <div className='flex  items-center justify-center
-            w-[100%]
-            md:w-[95%] md:flex-row md:pt-[3rem]
-          lg:m-[4rem] md:m-[1rem] lg:pt-[5rem] '>
-              <div className='flex flex-col  items-center justify-center '>
+             <div className='flex items-center justify-center
+                    w-[100%]
+                    md:w-[95%] md:flex-row md:pt-[3rem]
+                    lg:m-[4rem] md:m-[1rem] lg:pt-[5rem] '>
+              <div className='flex flex-col  items-center justify-center 
+              md:flex-row'>
                   <img className='rounded-md w-[80%] m-[2rem]
-                  md:w-[50%] md:p-[2rem]
+                  md:w-[40%] md:m-[2rem]
                           ' 
                           src={handHold} 
                           alt="Close up of disabled couple holding hands with interlaced fingers. A Black woman wears a floral printed skirt, 
