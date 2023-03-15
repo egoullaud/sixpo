@@ -1,6 +1,27 @@
 import React, { useEffect, useState } from 'react'
 import {FaExternalLinkAlt} from 'react-icons/fa'
 
+const RESOURCES_CATEGORIES_QUERY=`
+{
+    resourceCategories {
+      id
+      slug
+      title
+      resources {
+        id
+        slug
+        title
+        url
+        image {
+          url
+        }
+        content {
+          html
+        }
+      }
+    }
+  }
+`
 const   RESOURCES_QUERY=`
 {
     resources {
