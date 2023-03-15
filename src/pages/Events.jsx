@@ -121,7 +121,7 @@ function Events() {
       <section className='flex flex-col justify-evenly items-start bg-black  text-white  border-b-2 border-b-[#ff7070] py-[2rem] w-[100%]
       md:py-[3rem]
       lg:flex-row'>
-        <div className='flex flex-col justify-center items-center my-[3rem]
+        <div className='flex flex-col justify-center items-center my-[3rem] mx-auto
                  lg:w-[60%] '>
         <h1 className='font-bold text-3xl my-5
         lg:text-5xl lg:my-10'>Directions</h1>
@@ -137,7 +137,7 @@ function Events() {
          referrerpolicy="no-referrer-when-downgrade">
 
          </iframe>
-         <div className='flex  justify-start m-5 lg:w-[70%]'>
+         <div className='flex justify-start m-5 lg:w-[70%]'>
             <h2 className='font-bold text-2xl p-2 underline
             lg:text-3xl'>Location:</h2>
            <a target="_blank" href="https://www.google.com/maps/place/Heritage+Hall/@49.2572552,-123.1030644,17z/data=!3m2!4b1!5s0x548673e3716e6ddd:0xff07acb7c8760d7d!4m6!3m5!1s0x548673e3669ce3ad:0x7c84d4bd7f6028b3!8m2!3d49.2572552!4d-123.1008704!16s%2Fm%2F0n9gps0"> 
