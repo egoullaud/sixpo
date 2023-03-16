@@ -19,7 +19,8 @@ function HomeCards() {
             w-[90%]
             md:w-[33%] 
             lg:pb-[3rem]' id='EventCard'>
-                <Link to='/events'><img className='w-[90%] m-4 md:h-[13vh] lg:h-[28vh] rounded-md object-cover' src={eventImg} alt="A black and white photo of a smiling woman caressing her fiance's face. the SIXpo logo stands in vibrant colors in the center foreground with the words `Coming Spring 2023` printed underneath." /></Link> 
+                <Link to='/events'>
+                    <img className='w-[90%] m-4 md:h-[13vh] lg:h-[28vh] rounded-md object-cover' src={eventImg} alt="A black and white photo of a smiling woman caressing her fiance's face. the SIXpo logo stands in vibrant colors in the center foreground with the words `Coming Spring 2023` printed underneath." /></Link> 
                     <h5 className='font-bold text-lg md:text-xl lg:text-2xl lg:mt-[2rem]'>Sixpo Festival 2023</h5>
                      <p className='m-4 lg:mx-[3rem] text-center'>It's happening! Check out all the details about our upcoming Expo all about Sexuality, Inclusion, and Exploration for folx with disabilities!
                     </p>
