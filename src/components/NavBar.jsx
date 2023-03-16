@@ -11,7 +11,7 @@ function NavBar() {
   return (
   
          
-    <nav className='flex justify-between items-center h-[13vh] lg:h-[15vh] bg-black text-white'>
+    <nav className='flex justify-between items-center h-[13vh] lg:h-[15vh] xl:h-[17vh] bg-black text-white'>
   
             <h1 className='h-[13vh] w-[25%] flex  md:hidden z-10'>
                 <Link to='/home'> 
@@ -20,7 +20,7 @@ function NavBar() {
             </h1>
             
             <ul className=' hidden 
-            md:flex md:justify-center md:items-center uppercase w-[100%] pt-2 
+            md:flex md:justify-center md:items-center uppercase w-[100%] pt-2 lg:text-xl
             
             '>
                 <li><Link className='
