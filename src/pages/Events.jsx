@@ -3,6 +3,7 @@ import eventHero from '../assets/disabled-rep-flag.jpg'
 import festivalPhoto from '../assets/Delone-Kelsey.jpg'
 import Form from '../components/Form.jsx'
 import { Link } from 'react-router-dom'
+import Speakers from '../components/Speakers'
 
 function Events() {
   return (
@@ -43,7 +44,7 @@ function Events() {
           <div className='flex flex-col  
                 md:w-[60%]
                 lg:w-[50%]'>
-            <h2 className='font-bold  m-[2rem] underline
+            <h2 className='font-bold  m-[2rem] 
                 text-xl
                 md:text-2xl
                 lg:text-5xl'>
@@ -107,7 +108,7 @@ function Events() {
       {/* what to expect */}
       <section>
         <div className='mb-[3rem]'>
-        <h3 className='font-bold text-2xl mx-[2rem] underline'>What to Expect</h3>
+        <h3 className='font-bold text-2xl mx-[2rem]'>What to Expect</h3>
           <p className=' mx-[2rem] my-[1rem] text-xl'>You can expect a variety of vendors, presentations and workshops from a wide variety of organizations, experts and advocates! </p>
           <ul className=' list-decimal mx-[2.5rem]
                       md:mx-[4rem]'>
@@ -116,13 +117,18 @@ function Events() {
             <li className='my-2'>Week three will be concluding discussions, summary workshops and celebrating what we’ve all learned! </li>
           </ul>
         </div>
-
+          <div>
+          <h1 className='font-bold text-2xl mx-[2rem] mb-[2rem] text-center
+          lg:text-4xl'>Our Speakers</h1>
+            <Speakers/>
+          </div>
       </section>
       {/* directions and contact form */}
       <section className='flex flex-col justify-evenly items-start bg-black  text-white  border-b-2 border-b-[#ff7070] py-[2rem] w-[100%]
       md:py-[3rem]
       lg:flex-row'>
         <div className='flex flex-col justify-center items-center my-[3rem] mx-auto
+                 md:w-[80%]
                  lg:w-[60%] '>
         <h1 className='font-bold text-3xl my-5
         lg:text-5xl lg:my-10'>Directions</h1>
