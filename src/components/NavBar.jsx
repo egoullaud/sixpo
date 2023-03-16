@@ -54,7 +54,7 @@ function NavBar() {
         <div onClick={handleNav} className='block md:hidden mx-4 mb-2 z-20 ease-in-out duration-500'>
                 {!nav ? <AiOutlineMenu size={25}/> : <AiOutlineClose size={25}/> }
         </div>
-        <div className={!nav ? 'fixed left-[-100%] h-[100%] ' : 'z-10 fixed left-0 top-0 h-[100%] bg-black w-[60%] text-white border-r-2 border-gray-200 ease-in-out  duration-500'}>
+        <div className={!nav ? 'absolute left-[-100%] h-[100%] ' : 'z-10 absolute left-0 top-0 h-[100%] bg-black w-[60%] text-white border-r-2 border-gray-200 ease-in-out  duration-500'}>
         <h1 className='h-[13vh] w-[40%] flex  md:hidden '>
                 <Link to='/home'> 
                     <img className='w-[100%] m-2 justify-center items-center ' src={logo} alt="SIXpo logo: a bright pink heart with the word SIXPO in yellow across the front and the word Festival printed in outlined letters below." />
