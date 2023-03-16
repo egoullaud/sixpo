@@ -59,7 +59,7 @@ function BlogCard() {
         return(
         <div className='flex flex-col items-center justify-center'>
             {posts.map((post) =>(
-                <card className='bg-white rounded shadow-md flex flex-col items-center justify-center
+                <div className='bg-white rounded shadow-md flex flex-col items-center justify-center
                              w-[90%] 
                              md:w-[90%] 
                              lg:flex-row lg:w-[80%]'
@@ -82,7 +82,7 @@ function BlogCard() {
                     </div>
                     
 
-            </card>
+            </div>
 
           
            
