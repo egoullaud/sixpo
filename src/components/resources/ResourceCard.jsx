@@ -67,11 +67,13 @@ function ResourceCard() {
         {resources.map((resource) =>(
                 <div className='bg-white my-2 rounded shadow-lg flex flex-col items-center justify-evenly
                              w-[90%] 
-                             md:flex-row'
+                             md:flex-row
+                             lg:w-[75%]'
                       key={resource.id}>
                    
                       <img  className='rounded 
-                      md:w-[35%] max-h-56 m-2' src={resource.image.url} alt={resource.image.altText} />
+                      md:w-[35%]
+                      lg:w-[20%] max-h-56 m-2' src={resource.image.url} alt={resource.image.altText} />
                  
                     <div className='flex flex-col items-center text-center mb-4 w-[90%]
                                   md:text-left md:mr-4 md:w-[60%] md:items-start
