@@ -20,7 +20,7 @@ function NavBar() {
             </h1>
             
             <ul className=' hidden 
-            md:flex md:justify-center md:items-center uppercase w-[100%] pt-2 lg:text-xl
+            md:flex md:justify-center md:items-center uppercase w-[100%] pt-2 lg:text-xl 
             
             '>
                 <li><Link className='
