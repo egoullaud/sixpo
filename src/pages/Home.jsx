@@ -85,7 +85,7 @@ function Home() {
         <section className='xl:text-5xl lg:text-5xl
        md:text-5xl md:py-[5rem]
        text-3xl py-[5rem]
-        italic font-bold text-center w-[100%]'>
+         font-bold text-center w-[100%]'>
         <h2 >Intimacy is for everyone.</h2>
       </section>
             
