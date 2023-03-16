@@ -97,6 +97,7 @@ function Events() {
                       lg:w-[50%]'>
             <img className='rounded-md  
                       m-4
+                      w-[90%]
                       md:w-[100%] 
                       lg:w-[80%] lg:m-[3rem]' 
             src={festivalPhoto} 
