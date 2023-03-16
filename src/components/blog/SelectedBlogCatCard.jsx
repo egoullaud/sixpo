@@ -42,11 +42,13 @@ function SelectedBlogCatCard() {
    
      <div className='flex items-center justify-center'>
             {blogCategory.posts?.map((post) =>(
-                 <card className='bg-white rounded shadow-md flex flex-col items-center justify-center
-                 w-[90%] 
-                 md:w-[90%] lg:flex-row'
+        <card className='bg-white rounded shadow-md flex flex-col items-center justify-center
+        w-[90%] 
+        md:w-[90%] 
+        lg:flex-row lg:w-[80%]'
           key={post.id}>
        <Link className='w-[100%] object-cover lg:ml-4
+                        lg:w-[50%]
        xl:m-4' to={"/blog/"+post.slug}> 
           <img  className='rounded' src={post.image.url} alt={post.image.altText} />
        </Link>
