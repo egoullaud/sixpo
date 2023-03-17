@@ -61,6 +61,7 @@ function NavBar() {
                 </Link>
             </h1>
         <ul className='flex flex-col items-start uppercase w-[100%] pt-2  md:hidden '>
+        <li className='my-1 p-2 w-[100%] border-b-2 border-gray-200 hover:ease-in-out hover:duration-500 hover:underline hover:text-[#ffef91]'><Link  to='/home'>Home</Link></li> 
                 <li className='my-1 p-2 w-[100%] border-b-2 border-gray-200 hover:ease-in-out hover:duration-500 hover:underline hover:text-[#ffef91]'><Link  to='/about'>About Us</Link></li> 
                 <li className='my-1 p-2 w-[100%] border-b-2 border-gray-200 hover:ease-in-out hover:duration-500 hover:underline hover:text-[#ffef91]'><Link  to='/events'>Events</Link></li>
                 <li className='my-1 p-2 w-[100%] border-b-2 border-gray-200 hover:ease-in-out hover:duration-500 hover:underline hover:text-[#ffef91]'><Link  to='/blog'>Our Blog</Link></li>
