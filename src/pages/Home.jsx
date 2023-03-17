@@ -22,17 +22,17 @@ function Home() {
         </div>
         <div className='absolute bottom-0 bg-[#404344] bg-opacity-80 z-10 h-[4vh] lg:h-[6vh] w-[100%]'>
           <div className='flex justify-center items-center '>
-            <h2 className='uppercase font-semibold text-white text-sm 
+            <h2 className='uppercase text-white text-sm 
             md:text-lg md:py-2
             lg:py-2 lg:text-2xl'> Join us at Sixpo Festival 2023 | 
             <Link to='/events'
-             className=' lg:text-xl uppercase font-semibold hover:underline hover:transition-all hover:duration-500 hover:text-[#ffef91] hover:font-bold'>Learn More</Link></h2>
+             className=' lg:text-xl uppercase  hover:underline hover:transition-all hover:duration-500 hover:text-[#ffef91] hover:font-bold'>Learn More</Link></h2>
           </div>
         </div>
         </div>
       </section>
      
-      <Sponsors/>
+
       
       <section className='md:mx-[2rem] lg:mx-[3rem] lg:mt-[5rem] md:mt-[5rem]' id='sixpo-intro'>
         
@@ -93,7 +93,7 @@ function Home() {
         
       <HomeCards/>
       </section> 
-   
+         <Sponsors/>
      
     </div>
   )
