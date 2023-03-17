@@ -58,12 +58,11 @@ function Form() {
             </div>
           </div>
           <div class="sm:col-span-2">
-              <label for="message" class="block mb-2 text-sm font-medium text-white">Your message</label>
+              <label htmlFor="message" class="block mb-2 text-sm font-medium text-white">Your message</label>
               <textarea id="message" rows="6" name="message"
               class="block p-2.5 w-full text-sm text-black bg-gray-50 rounded-lg border border-gray-300 
               focus:ring-primary-500 focus:border-primary-500
-               " 
-              placeholder="Write your message here..."></textarea>
+               " placeholder="Write your message here..."></textarea>
           </div>
           <button type="submit" 
           class="flex items-center justify-center text-center rounded-md hover:bg-[#ff7070] hover:transition-all hover:duration-500 bg-black w-[200px] border-2 border-[#F86E6E] font-medium my-6 mx-auto py-3 text-white'">
