@@ -14,7 +14,7 @@ function NavBar() {
     <nav className='flex justify-between items-center h-[13vh] lg:h-[15vh] xl:h-[17vh] bg-black text-white'>
   
             <h1 className='h-[13vh] w-[25%] flex  md:hidden z-10'>
-                <Link to='/home'> 
+                <Link to='/'> 
                     <img className='w-[100%] m-2 justify-center items-center ' src={logo} alt="SIXpo logo: a bright pink heart with the word SIXPO in yellow across the front and the word Festival printed in outlined letters below." />
                 </Link>
             </h1>
@@ -56,7 +56,7 @@ function NavBar() {
         </div>
         <div className={!nav ? 'absolute left-[-100%] h-[100%] ' : 'z-10 absolute left-0 top-0 h-[100%] bg-black w-[60%] text-white border-r-2 border-gray-200 ease-in-out  duration-500'}>
         <h1 className='h-[13vh] w-[40%] flex  md:hidden '>
-                <Link to='/home'> 
+                <Link to='/'> 
                     <img className='w-[100%] m-2 justify-center items-center ' src={logo} alt="SIXpo logo: a bright pink heart with the word SIXPO in yellow across the front and the word Festival printed in outlined letters below." />
                 </Link>
             </h1>
