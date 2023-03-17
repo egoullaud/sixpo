@@ -4,7 +4,9 @@ function Form() {
   return (
     <div>
       <div>
-      <form action="#" class="space-y-2">
+      <form action="https://formsubmit.co/sixpowebadmn@gmail.com" method="POST" class="space-y-2">
+            <input type="text" name="_honey" className="hidden" />
+            <input type="hidden" name="_captcha" value="false" />
             <div>
               <label 
               for="name" 
@@ -21,7 +23,7 @@ function Form() {
            </div>
            <div>
               <label for="email" class="block mb-2 text-sm font-medium text-white" >Your email</label>
-              <input type="email" id="email" name='email'
+              <input type="email" id="email" name="email address"
               class=" bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg 
               focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5
               " 
@@ -29,7 +31,7 @@ function Form() {
           </div>
           <div>
               <label for="text" class="block mb-2 text-sm font-medium text-white">Your Phone Number</label>
-              <input type="text" id="phone" name="phone" class=" bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg 
+              <input type="text" id="phone" name="phone number" class=" bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg 
               focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5" 
               placeholder="(555) 555-5555" />
           </div>
