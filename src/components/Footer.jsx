@@ -21,7 +21,7 @@ function Footer() {
           justify-center 
           items-center'
         >
-            <Link className='w-[50%] md:w-[100%] lg:w-[50%]' to='/home'>
+            <Link className='w-[50%] md:w-[100%] lg:w-[50%]' to='/'>
                 <img src={logo} alt="SIXpo logo: a bright pink heart with the word SIXPO in yellow across the front and the word Festival printed in outlined letters below." /> 
             </Link> 
             <ul className='flex mx-2 text-white text-2xl pt-2 bg-black'>
