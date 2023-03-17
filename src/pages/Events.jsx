@@ -123,6 +123,19 @@ function Events() {
           lg:text-4xl'>Our Speakers</h1>
             <Speakers/>
           </div>
+          <div className='w-[100%] flex items-center justify-center my-[3rem]'>
+            <a href="https://www.eventbrite.ca/e/sixpo-festival-tickets-530930426197" target="_blank"> 
+                  <button className='
+                        text-white bg-[#ff5b5b] rounded-lg font-bold shadow-lg py-2 px-4
+                        md:py-2 md:px-4 md:mx-10
+                        lg:px-8 lg:py-3 lg:text-lg 
+                        hover:ease-in-out hover:duration-500 hover:bg-[#ff7070]'>
+                          Register with Eventbrite
+                    </button>
+            </a>
+
+          </div>
+        
       </section>
       {/* directions and contact form */}
       <section className='flex flex-col justify-evenly items-start bg-black  text-white  border-b-2 border-b-[#ff7070] py-[2rem] w-[100%]
