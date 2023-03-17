@@ -5,8 +5,8 @@ function Form() {
     <div>
       <div>
       <form action="https://formsubmit.co/96314122bac3ce02edae763bc47fe7e0" method="POST" class="space-y-2">
-            {/* <input type="text" name="_honey" className="hidden" />
-            <input type="hidden" name="_captcha" value="false" /> */}
+            <input type="text" name="_honey" className="hidden" />
+            <input type="hidden" name="_captcha" value="false" />
             <div>
               <label 
               for="name" 
