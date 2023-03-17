@@ -1,11 +1,8 @@
 import React from 'react'
-import Footer from '../components/Footer'
-import NavBar from '../components/NavBar'
 import heroImg from '../assets/disabled-line.jpg'
 import { Link } from 'react-router-dom'
 import Sponsors from '../components/Sponsors'
 import community from '../assets/community.jpg'
-import splitScreen from '../assets/splitscreen.png'
 import HomeCards from '../components/HomeCards'
 
 function Home() {
