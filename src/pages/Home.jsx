@@ -89,11 +89,11 @@ function Home() {
           </div>
       </section>
       </section>  
-      <section className=' bg-gradient-to-t from-[#bcf0ff] pb-[10vh]'>
+      <section className=' bg-gradient-to-t from-[#bcf0ff] py-[5vh]'>
+        <HomeCards/>
         
-      <HomeCards/>
       </section> 
-         <Sponsors/>
+        <Sponsors/>
      
     </div>
   )
