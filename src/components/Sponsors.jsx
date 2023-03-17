@@ -39,7 +39,8 @@ useEffect(() => {
     <div className='my-[2rem]'>
       <h1 className='font-bold m-4 text-center text-2xl'>Our Partners & Sponsors</h1>
      {sponsors.map((sponsor) =>(
-      <div className='grid grid-cols-2 justify-center items-center gap-2 mx-4'
+      <div className='grid grid-cols-2 justify-center items-center gap-2 mx-4
+      md:grid-cols-5'
        key={sponsor.id}>
       {sponsor.resources?.map((resource) => {
         return (
