@@ -1,46 +1,64 @@
 import React, { useEffect, useState } from 'react'
+import {request} from 'graphql-request'
 
-const SPONSORS_QUERY=`
-  {
-  sponsors {
-    resources {
-      id
-      title
-      slug
-      url
-      content {
-        html
-      }
-      image {
-        url
-      }
-    }
-  }
-}
-`
 
 function Sponsors() {
   const [sponsors,setSponsors] = useState([]);
 
 useEffect(() => {
-    fetch('https://ca-central-1.cdn.hygraph.com/content/cleeq0yjw61mv01uo3jtbetgq/master', { 
-        method: "POST",
-        headers: {"Content-Type" : "application/json"},
-        body: JSON.stringify({query: SPONSORS_QUERY})
-    }).then(response => response.json())
-    // .then(data=>console.log(data.data.sponsors))
-    .then(data =>setSponsors(data.data.sponsors))
-},[]);
+    const fetchSponsors = async () => {
+    const {sponsors} = await 
+    request('https://ca-central-1.cdn.hygraph.com/content/cleeq0yjw61mv01uo3jtbetgq/master',
+    `
+    {
+      sponsors {
+        resources {
+          id
+          title
+          slug
+          url
+          content {
+            html
+          }
+          image {
+            url
+          }
+        }
+      }
+    } 
+    `);
+    // console.log(sponsors);
+    setSponsors(sponsors);
+    };
+    fetchSponsors();
+  },[]);
+
+ 
 
   return (
-    <aside className=' border-b-gray border-b-2 '>
-     {sponsors.resources?.map((resource) =>(
-      <div key={resource.id}>
-        <h1>{resource.title}</h1>
-      </div>
+    <div className='my-[2rem]'>
+      <h1 className='font-bold m-4 text-center text-2xl'>Our Partners & Sponsors</h1>
+     {sponsors.map((sponsor) =>(
+      <div className='grid grid-cols-2 justify-center items-center gap-2 mx-4'
+       key={sponsor.id}>
+      {sponsor.resources?.map((resource) => {
+        return (
+          <div className='flex flex-col items-center justify-center' 
+          key={resource.id}>
+          <a href={resource.url} target="_blank">  <img 
+            className='w-[100%] max-h-20'
+            src={resource.image.url} 
+            alt={resource.image.altText} />
+          {/* <h1>{resource.title}</h1> */}
+          </a>
+        </div>
+
+        )
+      })}
+     </div>
 
      ))}
-    </aside>
+    </div>
   )
 }
 
