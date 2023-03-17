@@ -3,6 +3,7 @@ import coupleBW from '../assets/sixpo-couple-backs.jpg'
 import coupleSmile from '../assets/couple-smile.jpg'
 import handHold from '../assets/hand-hold.jpg'
 import { Link } from 'react-router-dom'
+import Sponsors from '../components/Sponsors'
 
 function About() {
   return (
@@ -52,7 +53,7 @@ function About() {
           <h1 className='w-[90%]  text-black text-center font-bold 
                   text-base
                   md:text-xl
-                  lg:text-2xl '> 
+                  lg:text-4xl lg:leading-loose '> 
               SIXpo: Sexuality, Inclusion and eXploration is a three week virtual expo run by and for folks with disabilities. During the three 
               weeks we will host a number of online workshops, panels, presentations and discussions over zoom. 
             </h1>
@@ -91,7 +92,7 @@ function About() {
                 <h3 className='my-4 font-bold px-4
                    text-xl
                    md:text-xl
-                   lg:text-2xl'> 
+                   lg:text-4xl'> 
                     Who is Sixpo for?
                 </h3>
                 <p className=' text-left px-4 mb-[1rem]
@@ -130,7 +131,7 @@ function About() {
                 <h3 className='my-4 font-bold px-4
                    text-xl
                    md:text-xl
-                   lg:text-2xl'> 
+                   lg:text-4xl'> 
                   Who is behind Sixpo?
                 </h3>
                 <p className=' text-left px-4 mb-[1rem]
@@ -149,21 +150,7 @@ function About() {
             </div>  
              </div>
        {/* sponsors */}
-        <div className='flex flex-col justify-center items-center my-[2rem] '>
-
-               <h3 className='my-4 font-bold w-[100%] px-4 text-center
-                   text-xl
-                   md:text-xl
-                   lg:text-2xl'>Our Sponsors and partners</h3>
-              <ul className='w-[75%] list-none px-8 mb-[2rem] text-center'>
-                <li>PosAbilities</li>
-                <li>Inclusion Powell River</li>
-                <li>AbOUT</li>
-                <li>Chronically Queer</li>
-                <li>CAN BC</li>
-                <li>Techlink </li>
-              </ul>
-        </div>
+       <Sponsors/>
       </section>
      
       </div>
