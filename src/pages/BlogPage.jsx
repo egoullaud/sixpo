@@ -73,7 +73,7 @@ function BlogPage() {
         <section className='flex items-center justify-center'>
             {posts.map((post) =>(
               <div 
-              className='bg-white rounded shadow-md flex flex-col items-center justify-center 
+              className='blog-page bg-white rounded shadow-md flex flex-col items-center justify-center 
                w-[100%] 
                md:w-[90%] 'key={post.id}>
                     <img className='w-[95%]  object-cover rounded m-4'  src={post.image.url} alt={post.image.altText} />
@@ -89,20 +89,20 @@ function BlogPage() {
                 {post.authors?.map((author) => 
                     (
                     <div key={author.id} 
-                         className='bg-slate-100 rounded-md mx-4 mb-[2rem]
+                         className='about-author bg-slate-100 rounded-md mx-4 mb-[2rem]
                               '>
                        <h1 className='font-bold text-3xl text-center pt-[1rem]
                               '>
                         About the Author</h1>
-                        <div className='flex flex-col items-center justify-center 
+                        <div className=' author-page flex flex-col items-center justify-center 
                                 '>
                             <div className='flex flex-col items-center mx-[3rem] mt-[1rem]
                             lg:ml-4 lg:mx-0 '>
                                 <img className='rounded-full w-[75%] md:w-[45%] lg:w-[30%]' src={author.image.url}></img>
                                 <h1 className='font-normal text-2xl'>{author.name}</h1>
                             </div>
-                            <div>
-                                <p className='text-left m-4' dangerouslySetInnerHTML={{__html:author.content.html}}></p>
+                            <div className='author-text'>
+                                <p className=' text-left m-4' dangerouslySetInnerHTML={{__html:author.content.html}}></p>
                             </div>
                         </div>
                     </div>
