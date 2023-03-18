@@ -11,7 +11,7 @@ function NavBar() {
   return (
   
          
-    <nav className='flex justify-between items-center h-[13vh] lg:h-[15vh] xl:h-[17vh] bg-black text-white'>
+    <nav className='flex justify-between items-center h-[13vh] lg:h-[17vh] xl:h-[17vh] bg-black text-white'>
   
             <h1 className='h-[13vh] w-[25%] flex  md:hidden z-10'>
                 <Link to='/'> 
@@ -20,15 +20,15 @@ function NavBar() {
             </h1>
             
             <ul className=' hidden 
-            md:flex md:justify-center md:items-center uppercase w-[100%] pt-2 lg:text-xl 
+            md:flex md:justify-center md:items-center uppercase w-[100%] pt-2  
             
             '>
                 <li><Link className='
-                xl:mx-[2rem]
+                xl:mx-[1rem]
                 lg:mx-[4rem] 
                 md:mx-[2rem] 
                 hover:transition-all hover:duration-500 hover:underline hover:text-[#ffef91]' to='/about'>About Us</Link></li> 
-                <li><Link className='xl:mx-[2rem]
+                <li><Link className='xl:mx-[1rem]
                 lg:mx-[4rem] 
                 md:mx-[2rem] 
                 hover:transition-all hover:duration-500 hover:underline hover:text-[#ffef91]' to='/events'>Events</Link></li>
@@ -38,11 +38,11 @@ function NavBar() {
                     </Link>
                    
                 </li>
-                <li><Link className='xl:mx-[2rem]
+                <li><Link className='xl:mx-[1rem]
                 lg:mx-[4rem] 
                 md:mx-[2rem] 
                 hover:transition-all hover:duration-500 hover:underline hover:text-[#ffef91]' to='/blog'>Our Blog</Link></li>
-                <li><Link className='xl:mx-[2rem]
+                <li><Link className='xl:mx-[1rem]
                 lg:mx-[4rem] 
                 md:mx-[2rem] 
                 hover:transition-all hover:duration-500 hover:underline hover:text-[#ffef91]' to='/resources'>Resources</Link></li>
