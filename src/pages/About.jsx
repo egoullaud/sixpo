@@ -4,7 +4,8 @@ import coupleSmile from '../assets/couple-smile.jpg'
 import handHold from '../assets/hand-hold.jpg'
 import { Link } from 'react-router-dom'
 import Sponsors from '../components/Sponsors'
-
+import Form from '../components/Form'
+import Donations from '../components/Donations'
 function About() {
   return (
     <div>
@@ -152,7 +153,25 @@ function About() {
        {/* sponsors */}
        <Sponsors/>
       </section>
-     
+      <section className='bg-black flex flex-col items-center justify-center py-[5rem]
+        lg:flex-row lg:items-start lg:px-4
+        '>
+          <div className='w-[90%] mb-[2rem]
+          lg:mx-3  lg:w-[50%]'>
+            <Donations/>
+          </div>
+          <div className='w-[90%]
+          md:w-[75%]
+          lg:w-[50%]
+          lg:px-[1rem]'>
+             <h1 className='text-2xl font-bold my-[1rem] text-center text-white
+                md:text-3xl
+                lg:text-4xl'>
+            Contact Us</h1>
+            <Form/>
+          </div>
+       
+        </section>
       </div>
   
     

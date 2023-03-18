@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom'
 import Sponsors from '../components/Sponsors'
 import community from '../assets/community.jpg'
 import HomeCards from '../components/HomeCards'
+import Donations from '../components/Donations'
+import Form from '../components/Form'
 
 function Home() {
   return (
@@ -94,7 +96,26 @@ function Home() {
         
       </section> 
         <Sponsors/>
-     
+        <section className='bg-black flex flex-col items-center justify-center py-[5rem]
+        lg:flex-row lg:items-start lg:px-4
+        '>
+          <div className='w-[90%] mb-[2rem]
+          lg:mx-3  lg:w-[50%]'>
+            <Donations/>
+          </div>
+          <div className='w-[90%]
+          md:w-[75%]
+          lg:w-[50%]
+          lg:px-[1rem]'>
+             <h1 className='text-2xl font-bold my-[1rem] text-center text-white
+                md:text-3xl
+                lg:text-4xl'>
+            Contact Us</h1>
+            <Form/>
+          </div>
+       
+        </section>
+ 
     </div>
   )
 }

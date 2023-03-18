@@ -5,6 +5,7 @@ import Form from '../components/Form.jsx'
 import { Link } from 'react-router-dom'
 import Speakers from '../components/Speakers'
 import Sponsors from '../components/Sponsors'
+import Donations from '../components/Donations'
 
 function Events() {
   return (
@@ -139,6 +140,7 @@ function Events() {
         
       </section>
       <Sponsors/>
+      <Donations/>
       {/* directions and contact form */}
       <section className='flex flex-col justify-evenly items-start bg-black  text-white  border-b-2 border-b-[#ff7070] py-[2rem] w-[100%]
       md:py-[3rem]
