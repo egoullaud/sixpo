@@ -54,18 +54,18 @@ function NavBar() {
         <div onClick={handleNav} className='block md:hidden mx-4 mb-2 z-20 ease-in-out duration-500'>
                 {!nav ? <AiOutlineMenu size={25}/> : <AiOutlineClose size={25}/> }
         </div>
-        <div className={!nav ? 'absolute left-[-100%] h-[100%] ' : 'z-10 absolute left-0 top-0 h-[100%] bg-black w-[60%] text-white border-r-2 border-gray-200 ease-in-out  duration-500'}>
+        <div className={!nav ? 'absolute left-[-100%] h-[100%] ' : 'z-10 absolute left-0 top-0 h-[100%] bg-black w-[60%] text-white  ease-in-out  duration-500'}>
         <h1 className='h-[13vh] w-[40%] flex  md:hidden '>
                 <Link to='/'> 
                     <img className='w-[100%] m-2 justify-center items-center ' src={logo} alt="SIXpo logo: a bright pink heart with the word SIXPO in yellow across the front and the word Festival printed in outlined letters below." />
                 </Link>
             </h1>
         <ul className='flex flex-col items-start uppercase w-[100%] pt-2  md:hidden '>
-        <li className='my-1 p-2 w-[100%] border-b-2 border-gray-200 hover:ease-in-out hover:duration-500 hover:underline hover:text-[#ffef91]'><Link  to='/home'>Home</Link></li> 
-                <li className='my-1 p-2 w-[100%] border-b-2 border-gray-200 hover:ease-in-out hover:duration-500 hover:underline hover:text-[#ffef91]'><Link  to='/about'>About Us</Link></li> 
-                <li className='my-1 p-2 w-[100%] border-b-2 border-gray-200 hover:ease-in-out hover:duration-500 hover:underline hover:text-[#ffef91]'><Link  to='/events'>Events</Link></li>
-                <li className='my-1 p-2 w-[100%] border-b-2 border-gray-200 hover:ease-in-out hover:duration-500 hover:underline hover:text-[#ffef91]'><Link  to='/blog'>Our Blog</Link></li>
-                <li className='my-1 p-2 w-[100%] border-b-2 border-gray-200 hover:ease-in-out hover:duration-500 hover:underline hover:text-[#ffef91]'><Link  to='/resources'>Resources</Link></li>
+                <li className='my-1 p-2 w-[100%]  hover:ease-in-out hover:duration-500 hover:underline hover:text-[#ffef91]'><Link  to='/home'>Home</Link></li> 
+                <li className='my-1 p-2 w-[100%]  hover:ease-in-out hover:duration-500 hover:underline hover:text-[#ffef91]'><Link  to='/about'>About Us</Link></li> 
+                <li className='my-1 p-2 w-[100%]  hover:ease-in-out hover:duration-500 hover:underline hover:text-[#ffef91]'><Link  to='/events'>Events</Link></li>
+                <li className='my-1 p-2 w-[100%]  hover:ease-in-out hover:duration-500 hover:underline hover:text-[#ffef91]'><Link  to='/blog'>Our Blog</Link></li>
+                <li className='my-1 p-2 w-[100%]  hover:ease-in-out hover:duration-500 hover:underline hover:text-[#ffef91]'><Link  to='/resources'>Resources</Link></li>
             </ul>
             <ul className='flex mx-2 text-white text-2xl pt-2'>
                <a href="https://www.instagram.com/yvrsixpo/" target="_blank"> <li className='mr-2'><AiFillInstagram/></li></a>
