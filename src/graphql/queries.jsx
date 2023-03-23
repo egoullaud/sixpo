@@ -1,7 +1,6 @@
-import {GraphQLClient, gql} from 'graphql-request'
+import { GraphQLClient, gql } from "graphql-request";
 
-
-export const graphcms = new GraphQLClient(process.env.REACT_APP_API)
+export const graphcms = new GraphQLClient(process.env.REACT_APP_API);
 
 //blog queries
 
@@ -9,7 +8,7 @@ const blogCategory = `
     id,
     title,
     slug
-`
+`;
 
 const posts = `
     id,
@@ -25,7 +24,7 @@ const posts = `
             image   { url },
             },
     preview
-`
+`;
 
 //resource queries
 
@@ -33,7 +32,7 @@ const resourceCategory = `
     id,
     slug,
     title
-`
+`;
 
 const resources = `
     id,
@@ -43,8 +42,7 @@ const resources = `
     content { html },
     image { url },
     category { title, slug} 
-`
-
+`;
 
 export const QUERY_SLUG_BLOG_CATEGORIES = gql`
     {
@@ -53,4 +51,4 @@ export const QUERY_SLUG_BLOG_CATEGORIES = gql`
             slug
         }
     }
-`
+`;
