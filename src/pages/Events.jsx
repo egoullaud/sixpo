@@ -118,6 +118,21 @@ function Events() {
                   Register with Eventbrite
                 </button>
               </a>
+              <a
+                href="https://drive.google.com/file/d/1r2w7SIpCMMroNstVRL-e903itOeIcWCe/view?usp=sharing"
+                target="_blank"
+              >
+                <button
+                  className="
+                      text-white bg-[#ff5b5b] rounded-lg font-bold shadow-lg
+                      py-2 px-4
+                      md:py-2 md:px-4 md:mx-10
+                      lg:px-8 lg:py-3 lg:text-lg 
+                      hover:ease-in-out hover:duration-500 hover:bg-[#ff7070]"
+                >
+                  Event Program (PDF)
+                </button>
+              </a>
               {/* <Link to='/'> 
                       <button className=' text-white bg-[#ff5b5b] rounded-lg font-bold shadow-lg
                       py-2 px-4
